@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIImage+Jukaela.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIImage(Jukaela)</TokenIdentifier>
+			<Abstract type="html">UIImage catagory, with all manor of neat things</Abstract>
+			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/saveImage:withFileName:</TokenIdentifier>
+			<Abstract type="html">Saves UIImage to users Documents folder</Abstract>
+			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>+ (void)saveImage:(UIImage *)image withFileName:(NSString *)filename</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The &apos;UIImage&apos; to save</Abstract>
+				</Parameter><Parameter>
+					<Name>filename</Name>
+					<Abstract type="html">&apos;NSString&apos; of what to name the file</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/saveImage:withFileName:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

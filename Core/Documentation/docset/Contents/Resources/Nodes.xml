@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>Core</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				
+				<Node type="folder">
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		
+		<Node id="1">
+			<Name>NSArray(Jukaela)</Name>
+			<Path>Categories/NSArray+Jukaela.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>NSMutableURLRequest(Jukaela)</Name>
+			<Path>Categories/NSMutableURLRequest+Jukaela.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>NSString(Jukaela)</Name>
+			<Path>Categories/NSString+Jukaela.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>UIImage(Jukaela)</Name>
+			<Path>Categories/UIImage+Jukaela.html</Path>
+		</Node>
+		
+		
+	</Library>
+</DocSetNodes>

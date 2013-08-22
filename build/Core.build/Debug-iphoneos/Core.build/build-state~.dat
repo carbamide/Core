@@ -1,0 +1,57 @@
+TCore
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/jbarrow/Desktop/Core/build/Debug-iphoneos/Core.framework/Info.plist /Users/jbarrow/Desktop/Core/Core/Core-Info.plist
+cCopyStringsFile /Users/jbarrow/Desktop/Core/build/Debug-iphoneos/Core.framework/en.lproj/InfoPlist.strings Core/en.lproj/InfoPlist.strings
+cTouch /Users/jbarrow/Desktop/Core/build/Debug-iphoneos/Core.framework
+
+N/Users/jbarrow/Desktop/Core/Core/Core-Info.plist
+c00000000521621C30000000000000565
+t1377182147
+s1381
+
+N/Users/jbarrow/Desktop/Core/Core/en.lproj/InfoPlist.strings
+c000000005216202E000000000000002D
+t1377181742
+s45
+
+N/Users/jbarrow/Desktop/Core/build/Debug-iphoneos/Core.framework
+t1377182823
+s136
+
+N/Users/jbarrow/Desktop/Core/build/Debug-iphoneos/Core.framework/Info.plist
+t1377182823
+s1165
+
+N/Users/jbarrow/Desktop/Core/build/Debug-iphoneos/Core.framework/en.lproj/InfoPlist.strings
+t1377182823
+s42
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesba30aee75bc6b741^53ebb1e75bc6b741^---0#1#1#--18"Check dependencies36"ECAF088F-A429-497D-A056-F84126CD2178-
+
+CCopyStringsFile /Users/jbarrow/Desktop/Core/build/Debug-iphoneos/Core.framework/en.lproj/InfoPlist.strings Core/en.lproj/InfoPlist.strings
+s398875623.699908
+e398875623.701336
+r1
+xCopyStringsFile
+x/Users/jbarrow/Desktop/Core/build/Debug-iphoneos/Core.framework/en.lproj/InfoPlist.strings
+xCore/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy Core/en.lproj/InfoPlist.strings110"CopyStringsFile build/Debug-iphoneos/Core.framework/en.lproj/InfoPlist.strings Core/en.lproj/InfoPlist.strings5b60b3e75bc6b741^268bb3e75bc6b741^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/jbarrow/Desktop/Core/Core/en.lproj/InfoPlist.strings0000000000000000^1262"CopyStringsFile build/Debug-iphoneos/Core.framework/en.lproj/InfoPlist.strings Core/en.lproj/InfoPlist.strings    cd /Users/jbarrow/Desktop/Core    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jbarrow/Desktop/Core/build/Debug-iphoneos/Core.framework/en.lproj -- Core/en.lproj/InfoPlist.strings36"AE451BC4-EBDE-4E76-9801-D47728305F57-
+b75E13543-A406-4CAF-9787-77A312BCA608
+
+CProcessInfoPlistFile /Users/jbarrow/Desktop/Core/build/Debug-iphoneos/Core.framework/Info.plist /Users/jbarrow/Desktop/Core/Core/Core-Info.plist
+s398875623.697624
+e398875623.699532
+r1
+xProcessInfoPlistFile
+x/Users/jbarrow/Desktop/Core/build/Debug-iphoneos/Core.framework/Info.plist
+x/Users/jbarrow/Desktop/Core/Core/Core-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Process /Users/jbarrow/Desktop/Core/Core/Core-Info.plist88"ProcessInfoPlistFile build/Debug-iphoneos/Core.framework/Info.plist Core/Core-Info.plist20d3b2e75bc6b741^9814b3e75bc6b741^---0#0#1#-19%DVTDocumentLocation2@55"file:///Users/jbarrow/Desktop/Core/Core/Core-Info.plist0000000000000000^1253"ProcessInfoPlistFile build/Debug-iphoneos/Core.framework/Info.plist Core/Core-Info.plist    cd /Users/jbarrow/Desktop/Core    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/jbarrow/Desktop/Core/Core/Core-Info.plist -expandbuildsettings -format binary -platform iphoneos -o /Users/jbarrow/Desktop/Core/build/Debug-iphoneos/Core.framework/Info.plist36"A8480B0A-0A84-4D53-9550-C0498E940684-
+b75E13543-A406-4CAF-9787-77A312BCA608
+
+CTouch /Users/jbarrow/Desktop/Core/build/Debug-iphoneos/Core.framework
+r0
+

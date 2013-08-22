@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSArray+Jukaela.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSArray(Jukaela)</TokenIdentifier>
+			<Abstract type="html">NSArray helper methods that may be useful in social networking applications.</Abstract>
+			<DeclaredIn>NSArray+Jukaela.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSArray(Jukaela)/arrayOfURLsFromString:error:</TokenIdentifier>
+			<Abstract type="html">Creates and &apos;NSArray&apos; of URLs as &apos;NSString&apos;s.</Abstract>
+			<DeclaredIn>NSArray+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>+ (NSArray *)arrayOfURLsFromString:(NSString *)stringToCheck error:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>stringToCheck</Name>
+					<Abstract type="html">The &apos;NSString&apos; to check for URLs</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">&apos;NSError&apos; that will be populated by any errors.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">&apos;NSArray&apos; of URLs as &apos;NSString&apos;s</Abstract></ReturnValue>
+			<Anchor>//api/name/arrayOfURLsFromString:error:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSArray(Jukaela)/splitString:maxCharacters:</TokenIdentifier>
+			<Abstract type="html">Splits a given &apos;NSString&apos; into multiple parts, no greater in length than &apos;maxLength&apos;</Abstract>
+			<DeclaredIn>NSArray+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>+ (NSArray *)splitString:(NSString *)stringToSplit maxCharacters:(NSInteger)maxLength</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>stringToSplit</Name>
+					<Abstract type="html">The &apos;NSString&apos; that needs to be split into parts</Abstract>
+				</Parameter><Parameter>
+					<Name>maxLength</Name>
+					<Abstract type="html">&apos;NSInteger&apos; that specifies that maximum length that each &apos;NSString&apos; the returned &apos;NSArray&apos; can be</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">&apos;NSArray&apos; of &apos;NSString&apos;s that are no greater than &apos;maxLength&apos;</Abstract></ReturnValue>
+			<Anchor>//api/name/splitString:maxCharacters:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
