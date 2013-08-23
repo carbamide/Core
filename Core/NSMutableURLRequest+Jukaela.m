@@ -24,6 +24,8 @@
 //  THE SOFTWARE.
 //
 
+@import Foundation;
+
 static NSString *const kGetHttpRequest = @"GET";
 static NSString *const kPostHttpRequest = @"POST";
 static NSString *const kJsonContentType = @"application/json";

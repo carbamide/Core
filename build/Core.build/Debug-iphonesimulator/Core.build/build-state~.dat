@@ -1,57 +1,0 @@
-TCore
-v6
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Info.plist /Users/jbarrow/Desktop/Core/Core/Core-Info.plist
-cCopyStringsFile /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/en.lproj/InfoPlist.strings Core/en.lproj/InfoPlist.strings
-cTouch /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework
-
-N/Users/jbarrow/Desktop/Core/Core/Core-Info.plist
-c00000000521621C30000000000000565
-t1377182147
-s1381
-
-N/Users/jbarrow/Desktop/Core/Core/en.lproj/InfoPlist.strings
-c000000005216202E000000000000002D
-t1377181742
-s45
-
-N/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework
-t1377182824
-s136
-
-N/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Info.plist
-t1377182824
-s937
-
-N/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/en.lproj/InfoPlist.strings
-t1377182824
-s42
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb1351be85bc6b741^575d1fe85bc6b741^-102"warning: CODE_SIGN_ENTITLEMENTS specified without a valid Developer Signing Identity for iOS: (null) 1(21%IDEActivityLogMessage2@101"Warning: CODE_SIGN_ENTITLEMENTS specified without a valid Developer Signing Identity for iOS: (null) -398875624#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"4B083456-17D8-40FA-AF97-AD374284C459-
-
-CCopyStringsFile /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/en.lproj/InfoPlist.strings Core/en.lproj/InfoPlist.strings
-s398875624.127535
-e398875624.128947
-r1
-xCopyStringsFile
-x/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/en.lproj/InfoPlist.strings
-xCore/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy Core/en.lproj/InfoPlist.strings117"CopyStringsFile build/Debug-iphonesimulator/Core.framework/en.lproj/InfoPlist.strings Core/en.lproj/InfoPlist.stringsfdd820e85bc6b741^210321e85bc6b741^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/jbarrow/Desktop/Core/Core/en.lproj/InfoPlist.strings0000000000000000^1283"CopyStringsFile build/Debug-iphonesimulator/Core.framework/en.lproj/InfoPlist.strings Core/en.lproj/InfoPlist.strings    cd /Users/jbarrow/Desktop/Core    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/en.lproj -- Core/en.lproj/InfoPlist.strings36"BB4812A5-2147-4B0E-912A-980A2FD0306B-
-b26A76706-6063-4259-BC0A-168B96BC0489
-
-CProcessInfoPlistFile /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Info.plist /Users/jbarrow/Desktop/Core/Core/Core-Info.plist
-s398875624.125069
-e398875624.127035
-r1
-xProcessInfoPlistFile
-x/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Info.plist
-x/Users/jbarrow/Desktop/Core/Core/Core-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Process /Users/jbarrow/Desktop/Core/Core/Core-Info.plist95"ProcessInfoPlistFile build/Debug-iphonesimulator/Core.framework/Info.plist Core/Core-Info.plist894120e85bc6b741^1b8520e85bc6b741^---0#0#1#-19%DVTDocumentLocation2@55"file:///Users/jbarrow/Desktop/Core/Core/Core-Info.plist0000000000000000^1281"ProcessInfoPlistFile build/Debug-iphonesimulator/Core.framework/Info.plist Core/Core-Info.plist    cd /Users/jbarrow/Desktop/Core    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/jbarrow/Desktop/Core/Core/Core-Info.plist -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Info.plist36"0C66BEDD-B755-4986-A0B9-5C51AF682667-
-b26A76706-6063-4259-BC0A-168B96BC0489
-
-CTouch /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework
-r0
-

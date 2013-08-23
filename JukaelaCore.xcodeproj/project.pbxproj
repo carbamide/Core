@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		29AC594E17C6597800B8DE73 /* JukaelaCore.Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 29AC594F17C6597800B8DE73 /* Build configuration list for PBXAggregateTarget "JukaelaCore.Framework" */;
+			buildPhases = (
+				29AC595817C65AAA00B8DE73 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = JukaelaCore.Framework;
+			productName = Core.Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2972166917C7E89B0003B177 /* JukaelaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AC595917C65CF800B8DE73 /* JukaelaCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2999C49917C6EBAB00CC4495 /* NSNull+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 2999C49717C6EBAB00CC4495 /* NSNull+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2999C49A17C6EBAB00CC4495 /* NSNull+Jukaela.m in Sources */ = {isa = PBXBuildFile; fileRef = 2999C49817C6EBAB00CC4495 /* NSNull+Jukaela.m */; };
+		29AC593D17C657AE00B8DE73 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AC593C17C657AE00B8DE73 /* CoreFoundation.framework */; };
+		29AC594B17C658BC00B8DE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AC594A17C658BC00B8DE73 /* Foundation.framework */; };
+		29AC594D17C658C000B8DE73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AC594C17C658C000B8DE73 /* UIKit.framework */; };
+		29AC596217C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC595B17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.m */; };
+		29AC596317C65CF800B8DE73 /* NSString+Jukaela.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC595D17C65CF800B8DE73 /* NSString+Jukaela.m */; };
+		29AC596417C65CF800B8DE73 /* NSArray+Jukaela.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC595F17C65CF800B8DE73 /* NSArray+Jukaela.m */; };
+		29AC596517C65CF800B8DE73 /* UIImage+Jukaela.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC596117C65CF800B8DE73 /* UIImage+Jukaela.m */; };
+		29AC597017C65D2800B8DE73 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AC596F17C65D2800B8DE73 /* XCTest.framework */; };
+		29AC597617C65D2800B8DE73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29AC597417C65D2800B8DE73 /* InfoPlist.strings */; };
+		29AC597817C65D2800B8DE73 /* Core_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC597717C65D2800B8DE73 /* Core_Tests.m */; };
+		29AC598517C65DE300B8DE73 /* NSMutableURLRequest+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AC595A17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29AC598617C65DE500B8DE73 /* NSString+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AC595C17C65CF800B8DE73 /* NSString+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29AC598717C65DE700B8DE73 /* NSArray+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AC595E17C65CF800B8DE73 /* NSArray+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29AC598817C65DE900B8DE73 /* UIImage+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AC596017C65CF800B8DE73 /* UIImage+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29CDD99017C6EE9D0047567B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CDD98F17C6EE9D0047567B /* Accelerate.framework */; };
+		29CDD99317C6EF010047567B /* NSDate+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CDD99117C6EF010047567B /* NSDate+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29CDD99417C6EF010047567B /* NSDate+Jukaela.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CDD99217C6EF010047567B /* NSDate+Jukaela.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29AC597A17C65D2800B8DE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29AC593117C657AE00B8DE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29AC593817C657AE00B8DE73;
+			remoteInfo = Core;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2999C49717C6EBAB00CC4495 /* NSNull+Jukaela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Jukaela.h"; sourceTree = "<group>"; };
+		2999C49817C6EBAB00CC4495 /* NSNull+Jukaela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Jukaela.m"; sourceTree = "<group>"; };
+		29AC593917C657AE00B8DE73 /* JukaelaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JukaelaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AC593C17C657AE00B8DE73 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		29AC594017C657AE00B8DE73 /* JukaelaCore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JukaelaCore-Info.plist"; sourceTree = "<group>"; };
+		29AC594217C657AE00B8DE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29AC594417C657AE00B8DE73 /* JukaelaCore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JukaelaCore-Prefix.pch"; sourceTree = "<group>"; };
+		29AC594A17C658BC00B8DE73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		29AC594C17C658C000B8DE73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		29AC595917C65CF800B8DE73 /* JukaelaCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JukaelaCore.h; sourceTree = "<group>"; };
+		29AC595A17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Jukaela.h"; sourceTree = "<group>"; };
+		29AC595B17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Jukaela.m"; sourceTree = "<group>"; };
+		29AC595C17C65CF800B8DE73 /* NSString+Jukaela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Jukaela.h"; sourceTree = "<group>"; };
+		29AC595D17C65CF800B8DE73 /* NSString+Jukaela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Jukaela.m"; sourceTree = "<group>"; };
+		29AC595E17C65CF800B8DE73 /* NSArray+Jukaela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Jukaela.h"; sourceTree = "<group>"; };
+		29AC595F17C65CF800B8DE73 /* NSArray+Jukaela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Jukaela.m"; sourceTree = "<group>"; };
+		29AC596017C65CF800B8DE73 /* UIImage+Jukaela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Jukaela.h"; sourceTree = "<group>"; };
+		29AC596117C65CF800B8DE73 /* UIImage+Jukaela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Jukaela.m"; sourceTree = "<group>"; };
+		29AC596617C65CFE00B8DE73 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = module.map; sourceTree = "<group>"; };
+		29AC596817C65D0400B8DE73 /* AppledocSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppledocSettings.plist; sourceTree = "<group>"; };
+		29AC596E17C65D2800B8DE73 /* JukaelaCore Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JukaelaCore Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AC596F17C65D2800B8DE73 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		29AC597317C65D2800B8DE73 /* JukaelaCore Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JukaelaCore Tests-Info.plist"; sourceTree = "<group>"; };
+		29AC597517C65D2800B8DE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29AC597717C65D2800B8DE73 /* Core_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core_Tests.m; sourceTree = "<group>"; };
+		29AC597917C65D2800B8DE73 /* JukaelaCore Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JukaelaCore Tests-Prefix.pch"; sourceTree = "<group>"; };
+		29CDD98F17C6EE9D0047567B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		29CDD99117C6EF010047567B /* NSDate+Jukaela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Jukaela.h"; sourceTree = "<group>"; };
+		29CDD99217C6EF010047567B /* NSDate+Jukaela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Jukaela.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29AC593617C657AE00B8DE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CDD99017C6EE9D0047567B /* Accelerate.framework in Frameworks */,
+				29AC594D17C658C000B8DE73 /* UIKit.framework in Frameworks */,
+				29AC594B17C658BC00B8DE73 /* Foundation.framework in Frameworks */,
+				29AC593D17C657AE00B8DE73 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AC596B17C65D2800B8DE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AC597017C65D2800B8DE73 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29AC593017C657AE00B8DE73 = {
+			isa = PBXGroup;
+			children = (
+				29AC593E17C657AE00B8DE73 /* Core */,
+				29AC597117C65D2800B8DE73 /* Core Tests */,
+				29AC593B17C657AE00B8DE73 /* Frameworks */,
+				29AC593A17C657AE00B8DE73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29AC593A17C657AE00B8DE73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29AC593917C657AE00B8DE73 /* JukaelaCore.framework */,
+				29AC596E17C65D2800B8DE73 /* JukaelaCore Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29AC593B17C657AE00B8DE73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29CDD98F17C6EE9D0047567B /* Accelerate.framework */,
+				29AC594C17C658C000B8DE73 /* UIKit.framework */,
+				29AC594A17C658BC00B8DE73 /* Foundation.framework */,
+				29AC593C17C657AE00B8DE73 /* CoreFoundation.framework */,
+				29AC596F17C65D2800B8DE73 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29AC593E17C657AE00B8DE73 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				29AC595917C65CF800B8DE73 /* JukaelaCore.h */,
+				29CDD99117C6EF010047567B /* NSDate+Jukaela.h */,
+				29CDD99217C6EF010047567B /* NSDate+Jukaela.m */,
+				2999C49717C6EBAB00CC4495 /* NSNull+Jukaela.h */,
+				2999C49817C6EBAB00CC4495 /* NSNull+Jukaela.m */,
+				29AC595A17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.h */,
+				29AC595B17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.m */,
+				29AC595C17C65CF800B8DE73 /* NSString+Jukaela.h */,
+				29AC595D17C65CF800B8DE73 /* NSString+Jukaela.m */,
+				29AC595E17C65CF800B8DE73 /* NSArray+Jukaela.h */,
+				29AC595F17C65CF800B8DE73 /* NSArray+Jukaela.m */,
+				29AC596017C65CF800B8DE73 /* UIImage+Jukaela.h */,
+				29AC596117C65CF800B8DE73 /* UIImage+Jukaela.m */,
+				29AC593F17C657AE00B8DE73 /* Supporting Files */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		29AC593F17C657AE00B8DE73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29AC596817C65D0400B8DE73 /* AppledocSettings.plist */,
+				29AC596617C65CFE00B8DE73 /* module.map */,
+				29AC594017C657AE00B8DE73 /* JukaelaCore-Info.plist */,
+				29AC594117C657AE00B8DE73 /* InfoPlist.strings */,
+				29AC594417C657AE00B8DE73 /* JukaelaCore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29AC597117C65D2800B8DE73 /* Core Tests */ = {
+			isa = PBXGroup;
+			children = (
+				29AC597717C65D2800B8DE73 /* Core_Tests.m */,
+				29AC597217C65D2800B8DE73 /* Supporting Files */,
+			);
+			path = "Core Tests";
+			sourceTree = "<group>";
+		};
+		29AC597217C65D2800B8DE73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29AC597317C65D2800B8DE73 /* JukaelaCore Tests-Info.plist */,
+				29AC597417C65D2800B8DE73 /* InfoPlist.strings */,
+				29AC597917C65D2800B8DE73 /* JukaelaCore Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29AC598417C65DDE00B8DE73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AC598517C65DE300B8DE73 /* NSMutableURLRequest+Jukaela.h in Headers */,
+				29AC598817C65DE900B8DE73 /* UIImage+Jukaela.h in Headers */,
+				29AC598617C65DE500B8DE73 /* NSString+Jukaela.h in Headers */,
+				29CDD99317C6EF010047567B /* NSDate+Jukaela.h in Headers */,
+				2999C49917C6EBAB00CC4495 /* NSNull+Jukaela.h in Headers */,
+				2972166917C7E89B0003B177 /* JukaelaCore.h in Headers */,
+				29AC598717C65DE700B8DE73 /* NSArray+Jukaela.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29AC593817C657AE00B8DE73 /* JukaelaCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AC594717C657AE00B8DE73 /* Build configuration list for PBXNativeTarget "JukaelaCore" */;
+			buildPhases = (
+				29AC593517C657AE00B8DE73 /* Sources */,
+				29AC593617C657AE00B8DE73 /* Frameworks */,
+				29AC593717C657AE00B8DE73 /* Resources */,
+				29AC598417C65DDE00B8DE73 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JukaelaCore;
+			productName = Core;
+			productReference = 29AC593917C657AE00B8DE73 /* JukaelaCore.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+		29AC596D17C65D2800B8DE73 /* JukaelaCore Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AC597C17C65D2800B8DE73 /* Build configuration list for PBXNativeTarget "JukaelaCore Tests" */;
+			buildPhases = (
+				29AC596A17C65D2800B8DE73 /* Sources */,
+				29AC596B17C65D2800B8DE73 /* Frameworks */,
+				29AC596C17C65D2800B8DE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29AC597B17C65D2800B8DE73 /* PBXTargetDependency */,
+			);
+			name = "JukaelaCore Tests";
+			productName = "Core Tests";
+			productReference = 29AC596E17C65D2800B8DE73 /* JukaelaCore Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29AC593117C657AE00B8DE73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jukaela Enterprises";
+				TargetAttributes = {
+					29AC596D17C65D2800B8DE73 = {
+						TestTargetID = 29AC593817C657AE00B8DE73;
+					};
+				};
+			};
+			buildConfigurationList = 29AC593417C657AE00B8DE73 /* Build configuration list for PBXProject "JukaelaCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29AC593017C657AE00B8DE73;
+			productRefGroup = 29AC593A17C657AE00B8DE73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29AC593817C657AE00B8DE73 /* JukaelaCore */,
+				29AC594E17C6597800B8DE73 /* JukaelaCore.Framework */,
+				29AC596D17C65D2800B8DE73 /* JukaelaCore Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29AC593717C657AE00B8DE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AC596C17C65D2800B8DE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AC597617C65D2800B8DE73 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29AC595817C65AAA00B8DE73 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=JukaelaCore\nFMK_VERSION=A\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n# Creates and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\nmkdir -p \"${INSTALL_DIR}/Versions\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\n# Creates the internal links.\n# It MUST uses relative path, otherwise will not work when the folder is copied/moved.\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\n# Copies the headers and resources files to the final product folder.\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\n# Removes the binary and header from the resources folder.\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29AC593517C657AE00B8DE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AC596217C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.m in Sources */,
+				29AC596517C65CF800B8DE73 /* UIImage+Jukaela.m in Sources */,
+				29AC596317C65CF800B8DE73 /* NSString+Jukaela.m in Sources */,
+				29AC596417C65CF800B8DE73 /* NSArray+Jukaela.m in Sources */,
+				2999C49A17C6EBAB00CC4495 /* NSNull+Jukaela.m in Sources */,
+				29CDD99417C6EF010047567B /* NSDate+Jukaela.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AC596A17C65D2800B8DE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AC597817C65D2800B8DE73 /* Core_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29AC597B17C65D2800B8DE73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29AC593817C657AE00B8DE73 /* JukaelaCore */;
+			targetProxy = 29AC597A17C65D2800B8DE73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29AC594117C657AE00B8DE73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AC594217C657AE00B8DE73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29AC597417C65D2800B8DE73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AC597517C65D2800B8DE73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29AC594517C657AE00B8DE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29AC594617C657AE00B8DE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		29AC594817C657AE00B8DE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joshua Barrow (VV74J74MG8)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = NO;
+				EXECUTABLE_EXTENSION = a;
+				EXECUTABLE_PREFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include;
+				PRODUCT_NAME = JukaelaCore;
+				PUBLIC_HEADERS_FOLDER_PATH = JukaelaCore.framework/Headers;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		29AC594917C657AE00B8DE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joshua Barrow (VV74J74MG8)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = NO;
+				EXECUTABLE_EXTENSION = a;
+				EXECUTABLE_PREFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include;
+				PRODUCT_NAME = JukaelaCore;
+				PUBLIC_HEADERS_FOLDER_PATH = JukaelaCore.framework/Headers;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		29AC595017C6597800B8DE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joshua Barrow (VV74J74MG8)";
+				PRODUCT_NAME = JukaelaCore.Framework;
+			};
+			name = Debug;
+		};
+		29AC595117C6597800B8DE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joshua Barrow (VV74J74MG8)";
+				PRODUCT_NAME = JukaelaCore.Framework;
+			};
+			name = Release;
+		};
+		29AC597D17C65D2800B8DE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Core Tests/JukaelaCore Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Core Tests/JukaelaCore Tests-Info.plist";
+				PRODUCT_NAME = "JukaelaCore Tests";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		29AC597E17C65D2800B8DE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Core Tests/JukaelaCore Tests-Prefix.pch";
+				INFOPLIST_FILE = "Core Tests/JukaelaCore Tests-Info.plist";
+				PRODUCT_NAME = "JukaelaCore Tests";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29AC593417C657AE00B8DE73 /* Build configuration list for PBXProject "JukaelaCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AC594517C657AE00B8DE73 /* Debug */,
+				29AC594617C657AE00B8DE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AC594717C657AE00B8DE73 /* Build configuration list for PBXNativeTarget "JukaelaCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AC594817C657AE00B8DE73 /* Debug */,
+				29AC594917C657AE00B8DE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AC594F17C6597800B8DE73 /* Build configuration list for PBXAggregateTarget "JukaelaCore.Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AC595017C6597800B8DE73 /* Debug */,
+				29AC595117C6597800B8DE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AC597C17C65D2800B8DE73 /* Build configuration list for PBXNativeTarget "JukaelaCore Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AC597D17C65D2800B8DE73 /* Debug */,
+				29AC597E17C65D2800B8DE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29AC593117C657AE00B8DE73 /* Project object */;
+}

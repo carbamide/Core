@@ -30,18 +30,6 @@
 #import "UIImage+Jukaela.h"
 #import <float.h>
 
-@interface UIImage()
--(UIImage *)resizedImage:(CGSize)newSize
-               transform:(CGAffineTransform)transform
-          drawTransposed:(BOOL)transpose
-    interpolationQuality:(CGInterpolationQuality)quality;
-
--(void)addRoundedRectToPath:(CGRect)rect
-                    context:(CGContextRef)context
-                  ovalWidth:(CGFloat)ovalWidth
-                 ovalHeight:(CGFloat)ovalHeight;
-
-@end
 @implementation UIImage (Jukaela)
 
 +(void)saveImage:(UIImage *)image withFileName:(NSString *)filename
