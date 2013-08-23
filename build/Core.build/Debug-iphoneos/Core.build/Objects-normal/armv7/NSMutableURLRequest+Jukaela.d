@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/jbarrow/Desktop/Core/Core/NSMutableURLRequest+Jukaela.m
+  /Users/jbarrow/Projects/iOS/Core/Core/NSMutableURLRequest+Jukaela.m

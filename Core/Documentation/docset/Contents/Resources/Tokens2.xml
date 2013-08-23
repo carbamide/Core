@@ -1,55 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Categories/NSMutableURLRequest+Jukaela.html">
+	<File path="Categories/NSDate+Jukaela.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cat/NSMutableURLRequest(Jukaela)</TokenIdentifier>
-			<Abstract type="html">NSMutableURLRequest helper methods.  These methods make it easy to form POST and GET requests.</Abstract>
-			<DeclaredIn>NSMutableURLRequest+Jukaela.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDate(Jukaela)</TokenIdentifier>
+			<Abstract type="html">A category on NSNull that tries to map all common calls that could occur when accidently calling NSNull</Abstract>
+			<DeclaredIn>NSDate+Jukaela.h</DeclaredIn>
 			
 			<NodeRef refid="2"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/NSMutableURLRequest(Jukaela)/getRequestWithURL:timeout:</TokenIdentifier>
-			<Abstract type="html">Creates GET request</Abstract>
-			<DeclaredIn>NSMutableURLRequest+Jukaela.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(Jukaela)/dateWithISO8601String:withFormatter:</TokenIdentifier>
+			<Abstract type="html">Convert an ISO8601 &apos;NSString&apos; to &apos;NSDate&apos;</Abstract>
+			<DeclaredIn>NSDate+Jukaela.h</DeclaredIn>			
 			
-			<Declaration>+ (NSMutableURLRequest *)getRequestWithURL:(NSURL *)url timeout:(NSInteger)timeoutInterval</Declaration>
+			<Declaration>+ (NSDate *)dateWithISO8601String:(NSString *)dateString withFormatter:(NSDateFormatter *)formatter</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>url</Name>
-					<Abstract type="html">The &apos;NSURL&apos; to from the request to</Abstract>
+					<Name>dateString</Name>
+					<Abstract type="html">The string to convert</Abstract>
 				</Parameter><Parameter>
-					<Name>timeoutInterval</Name>
-					<Abstract type="html">The &apos;NSInteger&apos; time, in whole seconds, to wait until failing the connection</Abstract>
+					<Name>formatter</Name>
+					<Abstract type="html">The &apos;NSDateFormatter&apos; to use</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;NSMutableURLRequest&apos;</Abstract></ReturnValue>
-			<Anchor>//api/name/getRequestWithURL:timeout:</Anchor>
+			<ReturnValue><Abstract type="html">&apos;NSDate&apos; that had been formatted</Abstract></ReturnValue>
+			<Anchor>//api/name/dateWithISO8601String:withFormatter:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/NSMutableURLRequest(Jukaela)/postRequestWithURL:withData:timeout:</TokenIdentifier>
-			<Abstract type="html">Creates POST request</Abstract>
-			<DeclaredIn>NSMutableURLRequest+Jukaela.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(Jukaela)/dateFromString:withFormat:withFormatter:</TokenIdentifier>
+			<Abstract type="html">Converts the specified &apos;NSString&apos; to an &apos;NSDate&apos; with the specified date format and formatter</Abstract>
+			<DeclaredIn>NSDate+Jukaela.h</DeclaredIn>			
 			
-			<Declaration>+ (NSMutableURLRequest *)postRequestWithURL:(NSURL *)url withData:(NSData *)data timeout:(NSInteger)timeoutInterval</Declaration>
+			<Declaration>+ (NSDate *)dateFromString:(NSString *)dateString withFormat:(NSString *)dateFormat withFormatter:(NSDateFormatter *)formatter</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>url</Name>
-					<Abstract type="html">The &apos;NSURL&apos; to from the request to</Abstract>
+					<Name>dateString</Name>
+					<Abstract type="html">The string to convert</Abstract>
 				</Parameter><Parameter>
-					<Name>data</Name>
-					<Abstract type="html">&apos;NSData&apos; to pass in the POST request</Abstract>
+					<Name>dateFormat</Name>
+					<Abstract type="html">The format of the date, in standard format</Abstract>
 				</Parameter><Parameter>
-					<Name>timeoutInterval</Name>
-					<Abstract type="html">The &apos;NSInteger&apos; time, in whole seconds, to wait until failing the connection</Abstract>
+					<Name>formatter</Name>
+					<Abstract type="html">The &apos;NSDateFormatter&apos; to use</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;NSMutableURLRequest&apos;</Abstract></ReturnValue>
-			<Anchor>//api/name/postRequestWithURL:withData:timeout:</Anchor>
+			<ReturnValue><Abstract type="html">&apos;NSDate&apos; that has been formatted</Abstract></ReturnValue>
+			<Anchor>//api/name/dateFromString:withFormat:withFormatter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(Jukaela)/daysBetweenDate:andDate:options:</TokenIdentifier>
+			<Abstract type="html">Number of days between two &apos;NSDate&apos;s</Abstract>
+			<DeclaredIn>NSDate+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>+ (int)daysBetweenDate:(NSDate *)dateOne andDate:(NSDate *)dateTwo options:(NSCalendarOptions)options</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dateOne</Name>
+					<Abstract type="html">First date</Abstract>
+				</Parameter><Parameter>
+					<Name>dateTwo</Name>
+					<Abstract type="html">Second date</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">&apos;NSCalendarOptions&apos; to specify for the calculation</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Number of days in between the two dates, as an int</Abstract></ReturnValue>
+			<Anchor>//api/name/daysBetweenDate:andDate:options:</Anchor>
 		</Token>
 		
 	</File>

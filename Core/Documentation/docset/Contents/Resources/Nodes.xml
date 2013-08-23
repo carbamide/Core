@@ -16,6 +16,8 @@
 						<NodeRef refid="2"/>
 						<NodeRef refid="3"/>
 						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
 						
 					</Subnodes>
 				</Node>
@@ -32,14 +34,22 @@
 			<Path>Categories/NSArray+Jukaela.html</Path>
 		</Node>
 		<Node id="2">
+			<Name>NSDate(Jukaela)</Name>
+			<Path>Categories/NSDate+Jukaela.html</Path>
+		</Node>
+		<Node id="3">
 			<Name>NSMutableURLRequest(Jukaela)</Name>
 			<Path>Categories/NSMutableURLRequest+Jukaela.html</Path>
 		</Node>
-		<Node id="3">
+		<Node id="4">
+			<Name>NSNull(DontCrash)</Name>
+			<Path>Categories/NSNull+DontCrash.html</Path>
+		</Node>
+		<Node id="5">
 			<Name>NSString(Jukaela)</Name>
 			<Path>Categories/NSString+Jukaela.html</Path>
 		</Node>
-		<Node id="4">
+		<Node id="6">
 			<Name>UIImage(Jukaela)</Name>
 			<Path>Categories/UIImage+Jukaela.html</Path>
 		</Node>

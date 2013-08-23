@@ -22,6 +22,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		2999C49917C6EBAB00CC4495 /* NSNull+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 2999C49717C6EBAB00CC4495 /* NSNull+Jukaela.h */; };
+		2999C49A17C6EBAB00CC4495 /* NSNull+Jukaela.m in Sources */ = {isa = PBXBuildFile; fileRef = 2999C49817C6EBAB00CC4495 /* NSNull+Jukaela.m */; };
 		29AC593D17C657AE00B8DE73 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AC593C17C657AE00B8DE73 /* CoreFoundation.framework */; };
 		29AC594317C657AE00B8DE73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29AC594117C657AE00B8DE73 /* InfoPlist.strings */; };
 		29AC594B17C658BC00B8DE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AC594A17C658BC00B8DE73 /* Foundation.framework */; };
@@ -39,6 +41,9 @@
 		29AC598617C65DE500B8DE73 /* NSString+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AC595C17C65CF800B8DE73 /* NSString+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29AC598717C65DE700B8DE73 /* NSArray+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AC595E17C65CF800B8DE73 /* NSArray+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29AC598817C65DE900B8DE73 /* UIImage+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AC596017C65CF800B8DE73 /* UIImage+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29CDD99017C6EE9D0047567B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CDD98F17C6EE9D0047567B /* Accelerate.framework */; };
+		29CDD99317C6EF010047567B /* NSDate+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CDD99117C6EF010047567B /* NSDate+Jukaela.h */; };
+		29CDD99417C6EF010047567B /* NSDate+Jukaela.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CDD99217C6EF010047567B /* NSDate+Jukaela.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2999C49717C6EBAB00CC4495 /* NSNull+Jukaela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Jukaela.h"; sourceTree = "<group>"; };
+		2999C49817C6EBAB00CC4495 /* NSNull+Jukaela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Jukaela.m"; sourceTree = "<group>"; };
 		29AC593917C657AE00B8DE73 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29AC593C17C657AE00B8DE73 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		29AC594017C657AE00B8DE73 /* Core-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Core-Info.plist"; sourceTree = "<group>"; };
@@ -59,7 +66,7 @@
 		29AC594417C657AE00B8DE73 /* Core-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Core-Prefix.pch"; sourceTree = "<group>"; };
 		29AC594A17C658BC00B8DE73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		29AC594C17C658C000B8DE73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		29AC595917C65CF800B8DE73 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		29AC595917C65CF800B8DE73 /* JukaelaCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JukaelaCore.h; sourceTree = "<group>"; };
 		29AC595A17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Jukaela.h"; sourceTree = "<group>"; };
 		29AC595B17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Jukaela.m"; sourceTree = "<group>"; };
 		29AC595C17C65CF800B8DE73 /* NSString+Jukaela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Jukaela.h"; sourceTree = "<group>"; };
@@ -76,6 +83,9 @@
 		29AC597517C65D2800B8DE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29AC597717C65D2800B8DE73 /* Core_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core_Tests.m; sourceTree = "<group>"; };
 		29AC597917C65D2800B8DE73 /* Core Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Core Tests-Prefix.pch"; sourceTree = "<group>"; };
+		29CDD98F17C6EE9D0047567B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		29CDD99117C6EF010047567B /* NSDate+Jukaela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Jukaela.h"; sourceTree = "<group>"; };
+		29CDD99217C6EF010047567B /* NSDate+Jukaela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Jukaela.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29CDD99017C6EE9D0047567B /* Accelerate.framework in Frameworks */,
 				29AC594D17C658C000B8DE73 /* UIKit.framework in Frameworks */,
 				29AC594B17C658BC00B8DE73 /* Foundation.framework in Frameworks */,
 				29AC593D17C657AE00B8DE73 /* CoreFoundation.framework in Frameworks */,
@@ -122,6 +133,7 @@
 		29AC593B17C657AE00B8DE73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				29CDD98F17C6EE9D0047567B /* Accelerate.framework */,
 				29AC594C17C658C000B8DE73 /* UIKit.framework */,
 				29AC594A17C658BC00B8DE73 /* Foundation.framework */,
 				29AC593C17C657AE00B8DE73 /* CoreFoundation.framework */,
@@ -133,7 +145,11 @@
 		29AC593E17C657AE00B8DE73 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				29AC595917C65CF800B8DE73 /* Core.h */,
+				29AC595917C65CF800B8DE73 /* JukaelaCore.h */,
+				29CDD99117C6EF010047567B /* NSDate+Jukaela.h */,
+				29CDD99217C6EF010047567B /* NSDate+Jukaela.m */,
+				2999C49717C6EBAB00CC4495 /* NSNull+Jukaela.h */,
+				2999C49817C6EBAB00CC4495 /* NSNull+Jukaela.m */,
 				29AC595A17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.h */,
 				29AC595B17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.m */,
 				29AC595C17C65CF800B8DE73 /* NSString+Jukaela.h */,
@@ -189,6 +205,8 @@
 				29AC598817C65DE900B8DE73 /* UIImage+Jukaela.h in Headers */,
 				29AC598617C65DE500B8DE73 /* NSString+Jukaela.h in Headers */,
 				29AC598717C65DE700B8DE73 /* NSArray+Jukaela.h in Headers */,
+				29CDD99317C6EF010047567B /* NSDate+Jukaela.h in Headers */,
+				2999C49917C6EBAB00CC4495 /* NSNull+Jukaela.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +341,8 @@
 				29AC596517C65CF800B8DE73 /* UIImage+Jukaela.m in Sources */,
 				29AC596317C65CF800B8DE73 /* NSString+Jukaela.m in Sources */,
 				29AC596417C65CF800B8DE73 /* NSArray+Jukaela.m in Sources */,
+				2999C49A17C6EBAB00CC4495 /* NSNull+Jukaela.m in Sources */,
+				29CDD99417C6EF010047567B /* NSDate+Jukaela.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +583,7 @@
 				29AC597E17C65D2800B8DE73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

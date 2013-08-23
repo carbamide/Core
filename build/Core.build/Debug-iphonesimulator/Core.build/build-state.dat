@@ -2,21 +2,23 @@ TCore
 v6
 r1
 cCheck dependencies
-cProcessInfoPlistFile /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Info.plist /Users/jbarrow/Desktop/Core/Core/Core-Info.plist
-cProcessPCH /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Core-Prefix-dqosfuqwldggqpgyjouizswxyiqc/Core-Prefix.pch.pch Core/Core-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.o /Users/jbarrow/Desktop/Core/Core/NSMutableURLRequest+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.o /Users/jbarrow/Desktop/Core/Core/UIImage+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.o /Users/jbarrow/Desktop/Core/Core/NSString+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.o /Users/jbarrow/Desktop/Core/Core/NSArray+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Core normal i386
-cCopyPlistFile /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/AppledocSettings.plist Core/AppledocSettings.plist
+cProcessInfoPlistFile /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Info.plist /Users/jbarrow/Projects/iOS/Core/Core/Core-Info.plist
+cProcessPCH /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch.pch Core/Core-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.o /Users/jbarrow/Projects/iOS/Core/Core/NSMutableURLRequest+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.o /Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.o /Users/jbarrow/Projects/iOS/Core/Core/NSString+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.o /Users/jbarrow/Projects/iOS/Core/Core/NSArray+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSNull+Jukaela.o /Users/jbarrow/Projects/iOS/Core/Core/NSNull+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSDate+Jukaela.o /Users/jbarrow/Projects/iOS/Core/Core/NSDate+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Core normal i386
+cCopyPlistFile /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/AppledocSettings.plist Core/AppledocSettings.plist
 cCpResource Core/module.map build/Debug-iphonesimulator/Core.framework/module.map
-cCopyStringsFile /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/en.lproj/InfoPlist.strings Core/en.lproj/InfoPlist.strings
+cCopyStringsFile /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/en.lproj/InfoPlist.strings Core/en.lproj/InfoPlist.strings
 cCpHeader Core/NSMutableURLRequest+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSMutableURLRequest+Jukaela.h
 cCpHeader Core/UIImage+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/UIImage+Jukaela.h
 cCpHeader Core/NSString+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSString+Jukaela.h
 cCpHeader Core/NSArray+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSArray+Jukaela.h
-cTouch /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework
+cTouch /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework
 
 N/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c000000005200DC7700000000006AAA70
@@ -67,6 +69,96 @@ N/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platf
 c000000005200DDA500000000001C15A0
 t1375788453
 s1840544
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005212E44B00000000006AAA70
+t1376969803
+s6990448
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005212E45300000000017FB7B0
+t1376969811
+s25147312
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c000000005209A11B0000000000000176
+t1376362779
+s374
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c000000005212E48500000000000003B5
+t1376969861
+s949
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005212E4C600000000000001A0
+t1376969926
+s416
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000005212E4CF00000000000035C0
+t1376969935
+s13760
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/vImage
+c000000005212E4D000000000002E18F0
+t1376969936
+s3021040
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib
+c000000005212E4CF000000000015F9F0
+t1376969935
+s1440240
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libLAPACK.dylib
+c000000005212E4CF00000000003F1260
+t1376969935
+s4133472
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvDSP.dylib
+c000000005212E4CF00000000000DD470
+t1376969935
+s906352
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvMisc.dylib
+c000000005212E4CF0000000000092F10
+t1376969935
+s601872
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/vecLib
+c000000005212E4CF0000000000003620
+t1376969935
+s13856
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000005212E4DA00000000002D23F0
+t1376969946
+s2958320
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005212E4DE00000000004248F0
+t1376969950
+s4344048
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005212E4EF0000000000E70C20
+t1376969967
+s15141920
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c000000005212E55B00000000001530C0
+t1376970075
+s1388736
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.A.dylib
+c000000005212E57C00000000001C15A0
+t1376970108
+s1840544
+
+N/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c00000000520BBA6F0000000000000A48
+t1376500335
+s2632
 
 N/Users/jbarrow/Desktop/Core/Core/AppledocSettings.plist
 c0000000052156C49000000000000020E
@@ -194,13 +286,171 @@ N/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/module.m
 t1377183188
 s300
 
+N/Users/jbarrow/Projects/iOS/Core/Core/AppledocSettings.plist
+c0000000052156C49000000000000020E
+t1377135689
+s526
+
+N/Users/jbarrow/Projects/iOS/Core/Core/Core-Info.plist
+c000000005216252C00000000000004C0
+t1377183020
+s1216
+
+N/Users/jbarrow/Projects/iOS/Core/Core/Core-Prefix.pch
+c00000000521621A700000000000000E3
+t1377182119
+s227
+
+N/Users/jbarrow/Projects/iOS/Core/Core/NSArray+Jukaela.h
+c000000005216BDB700000000000009BC
+t1377222071
+s2492
+
+N/Users/jbarrow/Projects/iOS/Core/Core/NSArray+Jukaela.m
+c000000005216BDB70000000000000C03
+t1377222071
+s3075
+
+N/Users/jbarrow/Projects/iOS/Core/Core/NSDate+Jukaela.h
+c000000005216BDB70000000000000B63
+t1377222071
+s2915
+
+N/Users/jbarrow/Projects/iOS/Core/Core/NSDate+Jukaela.m
+c000000005216BDB70000000000000903
+t1377222071
+s2307
+
+N/Users/jbarrow/Projects/iOS/Core/Core/NSMutableURLRequest+Jukaela.h
+c000000005216BDB700000000000008ED
+t1377222071
+s2285
+
+N/Users/jbarrow/Projects/iOS/Core/Core/NSMutableURLRequest+Jukaela.m
+c000000005216BDB70000000000000A13
+t1377222071
+s2579
+
+N/Users/jbarrow/Projects/iOS/Core/Core/NSNull+Jukaela.h
+c000000005216BDB70000000000001038
+t1377222071
+s4152
+
+N/Users/jbarrow/Projects/iOS/Core/Core/NSNull+Jukaela.m
+c000000005216BDB70000000000000D05
+t1377222071
+s3333
+
+N/Users/jbarrow/Projects/iOS/Core/Core/NSString+Jukaela.h
+c000000005216BDB70000000000000732
+t1377222071
+s1842
+
+N/Users/jbarrow/Projects/iOS/Core/Core/NSString+Jukaela.m
+c000000005216BDB70000000000000C6B
+t1377222071
+s3179
+
+N/Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.h
+c000000005216BDB70000000000001912
+t1377222071
+s6418
+
+N/Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m
+c000000005216BDB5000000000000684A
+t1377222069
+s26698
+
+N/Users/jbarrow/Projects/iOS/Core/Core/en.lproj/InfoPlist.strings
+c000000005216202E000000000000002D
+t1377181742
+s45
+
+N/Users/jbarrow/Projects/iOS/Core/Core/module.map
+c00000000521567A1000000000000012C
+t1377134497
+s300
+
+N/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/Core.LinkFileList
+c000000005216BA3100000000000002E1
+t1377221169
+s737
+
+N/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.o
+t1377222079
+s13752
+
+N/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSDate+Jukaela.o
+t1377222079
+s10908
+
+N/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.o
+t1377222079
+s8892
+
+N/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSNull+Jukaela.o
+t1377222079
+s23736
+
+N/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.o
+t1377222079
+s11116
+
+N/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.o
+t1377222080
+s61092
+
+N/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework
+t1377222080
+s272
+
+N/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/AppledocSettings.plist
+t1377183188
+s225
+
+N/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Core
+t1377222080
+s74380
+
+N/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Headers/NSArray+Jukaela.h
+t1377222080
+s2492
+
+N/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Headers/NSMutableURLRequest+Jukaela.h
+t1377222080
+s2285
+
+N/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Headers/NSString+Jukaela.h
+t1377222080
+s1842
+
+N/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Headers/UIImage+Jukaela.h
+t1377222080
+s6418
+
+N/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Info.plist
+t1377183025
+s867
+
+N/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/en.lproj/InfoPlist.strings
+t1377182824
+s42
+
+N/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/module.map
+t1377183188
+s300
+
 N/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Core-Prefix-dqosfuqwldggqpgyjouizswxyiqc/Core-Prefix.pch.pch
 t1377183188
 s108932
 
+N/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch.pch
+t1377221171
+s109016
+
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd3bf04f55dc6b741^a2f031f55dc6b741^---0#1#1#--18"Check dependencies36"D422DA72-0D6C-4823-89F8-070AB519DFCA-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciescd94d24ff5c6b741^d2e1e14ff5c6b741^---0#1#1#--18"Check dependencies36"0E4B9F62-3C22-440C-9EAD-63BAA54F25D3-
 
 CCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.o /Users/jbarrow/Desktop/Core/Core/NSArray+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s398875988.596108
@@ -218,6 +468,38 @@ d/Users/jbarrow/Desktop/Core/Core/NSArray+Jukaela.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/jbarrow/Desktop/Core/Core/NSArray+Jukaela.m187"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.o Core/NSArray+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilereae898545dc6b741^7f2ea2545dc6b741^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/jbarrow/Desktop/Core/Core/NSArray+Jukaela.m0000000000000000^3220"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.o Core/NSArray+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbarrow/Desktop/Core    setenv LANG en_US.US-ASCII    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-generated-files.hmap -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-own-target-headers.hmap -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-all-target-headers.hmap -iquote /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-project-headers.hmap -I/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/include -I/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources/i386 -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources -F/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator -include /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Core-Prefix-dqosfuqwldggqpgyjouizswxyiqc/Core-Prefix.pch -MMD -MT dependencies -MF /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.d --serialize-diagnostics /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.dia -c /Users/jbarrow/Desktop/Core/Core/NSArray+Jukaela.m -o /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.o36"2A5AD07F-8E6D-426E-8CB2-5A86EA9D66C5-
 bDEBF4B1D-7436-49A1-8960-10164D744B53
 
+CCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.o /Users/jbarrow/Projects/iOS/Core/Core/NSArray+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398914879.942122
+e398914879.989537
+r1
+xCompileC
+xbuild/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.o
+x/Users/jbarrow/Projects/iOS/Core/Core/NSArray+Jukaela.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jbarrow/Projects/iOS/Core/Core/NSArray+Jukaela.m
+d/Users/jbarrow/Projects/iOS/Core/Core/NSArray+Jukaela.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/jbarrow/Projects/iOS/Core/Core/NSArray+Jukaela.m187"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.o Core/NSArray+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4791f13ff5c6b741^a854fd3ff5c6b741^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/jbarrow/Projects/iOS/Core/Core/NSArray+Jukaela.m0000000000000000^4218"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.o Core/NSArray+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbarrow/Projects/iOS/Core    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-generated-files.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-own-target-headers.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-all-target-headers.hmap -iquote /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-project-headers.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/include -I/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources/i386 -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources -F/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator -include /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch -MMD -MT dependencies -MF /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.d --serialize-diagnostics /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.dia -c /Users/jbarrow/Projects/iOS/Core/Core/NSArray+Jukaela.m -o /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.o36"F06AC9E6-75D2-4E80-AE6A-5BEE881188C2-
+b0E52FBD8-986E-4105-B233-08DE97B9A14A
+
+CCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSDate+Jukaela.o /Users/jbarrow/Projects/iOS/Core/Core/NSDate+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398914879.942674
+e398914879.984107
+r1
+xCompileC
+xbuild/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSDate+Jukaela.o
+x/Users/jbarrow/Projects/iOS/Core/Core/NSDate+Jukaela.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jbarrow/Projects/iOS/Core/Core/NSDate+Jukaela.m
+d/Users/jbarrow/Projects/iOS/Core/Core/NSDate+Jukaela.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/jbarrow/Projects/iOS/Core/Core/NSDate+Jukaela.m185"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSDate+Jukaela.o Core/NSDate+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1fb9f13ff5c6b741^c4eefb3ff5c6b741^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/jbarrow/Projects/iOS/Core/Core/NSDate+Jukaela.m0000000000000000^4212"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSDate+Jukaela.o Core/NSDate+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbarrow/Projects/iOS/Core    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-generated-files.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-own-target-headers.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-all-target-headers.hmap -iquote /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-project-headers.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/include -I/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources/i386 -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources -F/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator -include /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch -MMD -MT dependencies -MF /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSDate+Jukaela.d --serialize-diagnostics /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSDate+Jukaela.dia -c /Users/jbarrow/Projects/iOS/Core/Core/NSDate+Jukaela.m -o /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSDate+Jukaela.o36"444FBBB1-2D92-4CCB-97C9-5D815182F1F0-
+b0E52FBD8-986E-4105-B233-08DE97B9A14A
+
 CCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.o /Users/jbarrow/Desktop/Core/Core/NSMutableURLRequest+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s398875988.595360
 e398875988.629670
@@ -232,6 +514,37 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/jbarrow/Desktop/Core/Core/NSMutableURLRequest+Jukaela.m
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/jbarrow/Desktop/Core/Core/NSMutableURLRequest+Jukaela.m211"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.o Core/NSMutableURLRequest+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerefa998545dc6b741^f832a1545dc6b741^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/jbarrow/Desktop/Core/Core/NSMutableURLRequest+Jukaela.m0000000000000000^3292"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.o Core/NSMutableURLRequest+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbarrow/Desktop/Core    setenv LANG en_US.US-ASCII    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-generated-files.hmap -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-own-target-headers.hmap -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-all-target-headers.hmap -iquote /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-project-headers.hmap -I/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/include -I/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources/i386 -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources -F/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator -include /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Core-Prefix-dqosfuqwldggqpgyjouizswxyiqc/Core-Prefix.pch -MMD -MT dependencies -MF /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.d --serialize-diagnostics /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.dia -c /Users/jbarrow/Desktop/Core/Core/NSMutableURLRequest+Jukaela.m -o /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.o36"CFBB4CA9-A625-4E4C-92E0-3B31B63F1281-
 bDEBF4B1D-7436-49A1-8960-10164D744B53
+
+CCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.o /Users/jbarrow/Projects/iOS/Core/Core/NSMutableURLRequest+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398914879.941485
+e398914879.977353
+r1
+xCompileC
+xbuild/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.o
+x/Users/jbarrow/Projects/iOS/Core/Core/NSMutableURLRequest+Jukaela.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jbarrow/Projects/iOS/Core/Core/NSMutableURLRequest+Jukaela.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/jbarrow/Projects/iOS/Core/Core/NSMutableURLRequest+Jukaela.m211"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.o Core/NSMutableURLRequest+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercd57f13ff5c6b741^db34fa3ff5c6b741^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/jbarrow/Projects/iOS/Core/Core/NSMutableURLRequest+Jukaela.m0000000000000000^4290"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.o Core/NSMutableURLRequest+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbarrow/Projects/iOS/Core    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-generated-files.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-own-target-headers.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-all-target-headers.hmap -iquote /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-project-headers.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/include -I/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources/i386 -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources -F/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator -include /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch -MMD -MT dependencies -MF /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.d --serialize-diagnostics /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.dia -c /Users/jbarrow/Projects/iOS/Core/Core/NSMutableURLRequest+Jukaela.m -o /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.o36"42144B04-767C-4C78-B4CD-71A9A7EE783C-
+b0E52FBD8-986E-4105-B233-08DE97B9A14A
+
+CCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSNull+Jukaela.o /Users/jbarrow/Projects/iOS/Core/Core/NSNull+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398914879.942398
+e398914879.993584
+r1
+xCompileC
+xbuild/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSNull+Jukaela.o
+x/Users/jbarrow/Projects/iOS/Core/Core/NSNull+Jukaela.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jbarrow/Projects/iOS/Core/Core/NSNull+Jukaela.m
+d/Users/jbarrow/Projects/iOS/Core/Core/NSNull+Jukaela.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/jbarrow/Projects/iOS/Core/Core/NSNull+Jukaela.m185"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSNull+Jukaela.o Core/NSNull+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerdca1f13ff5c6b741^145efe3ff5c6b741^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/jbarrow/Projects/iOS/Core/Core/NSNull+Jukaela.m0000000000000000^4212"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSNull+Jukaela.o Core/NSNull+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbarrow/Projects/iOS/Core    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-generated-files.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-own-target-headers.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-all-target-headers.hmap -iquote /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-project-headers.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/include -I/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources/i386 -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources -F/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator -include /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch -MMD -MT dependencies -MF /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSNull+Jukaela.d --serialize-diagnostics /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSNull+Jukaela.dia -c /Users/jbarrow/Projects/iOS/Core/Core/NSNull+Jukaela.m -o /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSNull+Jukaela.o36"8F895525-FC90-4680-BF82-359CB5C12126-
+b0E52FBD8-986E-4105-B233-08DE97B9A14A
 
 CCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.o /Users/jbarrow/Desktop/Core/Core/NSString+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s398875988.595775
@@ -249,6 +562,22 @@ d/Users/jbarrow/Desktop/Core/Core/NSString+Jukaela.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/jbarrow/Desktop/Core/Core/NSString+Jukaela.m189"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.o Core/NSString+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere5b798545dc6b741^c6dda0545dc6b741^---0#0#1#-19%DVTDocumentLocation2@58"file:///Users/jbarrow/Desktop/Core/Core/NSString+Jukaela.m0000000000000000^3226"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.o Core/NSString+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbarrow/Desktop/Core    setenv LANG en_US.US-ASCII    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-generated-files.hmap -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-own-target-headers.hmap -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-all-target-headers.hmap -iquote /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-project-headers.hmap -I/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/include -I/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources/i386 -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources -F/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator -include /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Core-Prefix-dqosfuqwldggqpgyjouizswxyiqc/Core-Prefix.pch -MMD -MT dependencies -MF /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.d --serialize-diagnostics /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.dia -c /Users/jbarrow/Desktop/Core/Core/NSString+Jukaela.m -o /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.o36"8DC24C63-FB47-4646-A29F-EA73E0BAFB2D-
 bDEBF4B1D-7436-49A1-8960-10164D744B53
 
+CCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.o /Users/jbarrow/Projects/iOS/Core/Core/NSString+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398914879.941845
+e398914879.983188
+r1
+xCompileC
+xbuild/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.o
+x/Users/jbarrow/Projects/iOS/Core/Core/NSString+Jukaela.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jbarrow/Projects/iOS/Core/Core/NSString+Jukaela.m
+d/Users/jbarrow/Projects/iOS/Core/Core/NSString+Jukaela.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/jbarrow/Projects/iOS/Core/Core/NSString+Jukaela.m189"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.o Core/NSString+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9e79f13ff5c6b741^70b4fb3ff5c6b741^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/jbarrow/Projects/iOS/Core/Core/NSString+Jukaela.m0000000000000000^4224"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.o Core/NSString+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbarrow/Projects/iOS/Core    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-generated-files.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-own-target-headers.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-all-target-headers.hmap -iquote /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-project-headers.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/include -I/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources/i386 -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources -F/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator -include /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch -MMD -MT dependencies -MF /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.d --serialize-diagnostics /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.dia -c /Users/jbarrow/Projects/iOS/Core/Core/NSString+Jukaela.m -o /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.o36"70FB77F2-402B-468A-A9B8-FF8D05DC2F23-
+b0E52FBD8-986E-4105-B233-08DE97B9A14A
+
 CCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.o /Users/jbarrow/Desktop/Core/Core/UIImage+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s398875988.595568
 e398875988.634596
@@ -265,6 +594,35 @@ d/Users/jbarrow/Desktop/Core/Core/UIImage+Jukaela.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/jbarrow/Desktop/Core/Core/UIImage+Jukaela.m187"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.o Core/UIImage+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere3a898545dc6b741^5875a2545dc6b741^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/jbarrow/Desktop/Core/Core/UIImage+Jukaela.m0000000000000000^3220"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.o Core/UIImage+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbarrow/Desktop/Core    setenv LANG en_US.US-ASCII    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-generated-files.hmap -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-own-target-headers.hmap -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-all-target-headers.hmap -iquote /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-project-headers.hmap -I/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/include -I/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources/i386 -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources -F/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator -include /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Core-Prefix-dqosfuqwldggqpgyjouizswxyiqc/Core-Prefix.pch -MMD -MT dependencies -MF /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.d --serialize-diagnostics /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.dia -c /Users/jbarrow/Desktop/Core/Core/UIImage+Jukaela.m -o /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.o36"FC20CA80-B330-4FAC-A3D2-068495139D9D-
 bDEBF4B1D-7436-49A1-8960-10164D744B53
 
+CCompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.o /Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398914879.941689
+e398914880.031272
+r1
+xCompileC
+xbuild/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.o
+x/Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m
+d/Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.h
+o/Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m:656:1: warning: category is implementing a method which will also be implemented by its primary class [-Wobjc-protocol-method-implementation]
+o-(UIImage *)resizedImage:(CGSize)newSize
+o^
+o/Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m:34:1: note: method 'resizedImage:transform:drawTransposed:interpolationQuality:' declared here
+o-(UIImage *)resizedImage:(CGSize)newSize
+o^
+o/Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m:630:1: warning: category is implementing a method which will also be implemented by its primary class [-Wobjc-protocol-method-implementation]
+o-(void)addRoundedRectToPath:(CGRect)rect context:(CGContextRef)context ovalWidth:(CGFloat)ovalWidth ovalHeight:(CGFloat)ovalHeight
+o^
+o/Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m:39:1: note: method 'addRoundedRectToPath:context:ovalWidth:ovalHeight:' declared here
+o-(void)addRoundedRectToPath:(CGRect)rect
+o^
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m187"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.o Core/UIImage+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera568f13ff5c6b741^65000840f5c6b741^-973"/Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m:656:1: warning: category is implementing a method which will also be implemented by its primary class [-Wobjc-protocol-method-implementation]-(UIImage *)resizedImage:(CGSize)newSize^/Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m:34:1: note: method 'resizedImage:transform:drawTransposed:interpolationQuality:' declared here-(UIImage *)resizedImage:(CGSize)newSize^/Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m:630:1: warning: category is implementing a method which will also be implemented by its primary class [-Wobjc-protocol-method-implementation]-(void)addRoundedRectToPath:(CGRect)rect context:(CGContextRef)context ovalWidth:(CGFloat)ovalWidth ovalHeight:(CGFloat)ovalHeight^/Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m:39:1: note: method 'addRoundedRectToPath:context:ovalWidth:ovalHeight:' declared here-(void)addRoundedRectToPath:(CGRect)rect^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@85"Category is implementing a method which will also be implemented by its primary class-398914880#18446744073709551615#0#1(2@82"Method 'resizedImage:transform:drawTransposed:interpolationQuality:' declared here-398914880#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@62"file:///Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m0000000000000000^33#0#33#0#1318#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@62"file:///Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m0000000000000000^655#0#655#0#25366#0#14"Semantic Issue--2@85"Category is implementing a method which will also be implemented by its primary class-398914880#18446744073709551615#0#1(2@73"Method 'addRoundedRectToPath:context:ovalWidth:ovalHeight:' declared here-398914880#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@62"file:///Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m0000000000000000^38#0#38#0#1513#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@62"file:///Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m0000000000000000^629#0#629#0#24480#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@62"file:///Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m0000000000000000^4218"CompileC build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.o Core/UIImage+Jukaela.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbarrow/Projects/iOS/Core    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-generated-files.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-own-target-headers.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-all-target-headers.hmap -iquote /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-project-headers.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/include -I/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources/i386 -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources -F/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator -include /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch -MMD -MT dependencies -MF /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.d --serialize-diagnostics /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.dia -c /Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.m -o /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.o36"CDBCF864-25F5-42B3-93AD-638ACA78DC36-
+b0E52FBD8-986E-4105-B233-08DE97B9A14A
+
 CCopyPlistFile /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/AppledocSettings.plist Core/AppledocSettings.plist
 s398875988.650927
 e398875988.652312
@@ -274,6 +632,9 @@ x/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Appledoc
 xCore/AppledocSettings.plist
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Copy Core/AppledocSettings.plist107"CopyPlistFile build/Debug-iphonesimulator/Core.framework/AppledocSettings.plist Core/AppledocSettings.plist13d2a6545dc6b741^2e02a7545dc6b741^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/jbarrow/Desktop/Core/Core/AppledocSettings.plist0000000000000000^294"CopyPlistFile build/Debug-iphonesimulator/Core.framework/AppledocSettings.plist Core/AppledocSettings.plist    cd /Users/jbarrow/Desktop/Core    builtin-copyPlist --convert binary1 --outdir /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework -- Core/AppledocSettings.plist36"915BAB82-C6EE-4B59-B156-01513E0FF0CB-
 bDEBF4B1D-7436-49A1-8960-10164D744B53
+
+CCopyPlistFile /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/AppledocSettings.plist Core/AppledocSettings.plist
+r0
 
 CCopyStringsFile /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/en.lproj/InfoPlist.strings Core/en.lproj/InfoPlist.strings
 s398875624.127535
@@ -285,45 +646,48 @@ xCore/en.lproj/InfoPlist.strings
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy Core/en.lproj/InfoPlist.strings117"CopyStringsFile build/Debug-iphonesimulator/Core.framework/en.lproj/InfoPlist.strings Core/en.lproj/InfoPlist.stringsfdd820e85bc6b741^210321e85bc6b741^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/jbarrow/Desktop/Core/Core/en.lproj/InfoPlist.strings0000000000000000^1283"CopyStringsFile build/Debug-iphonesimulator/Core.framework/en.lproj/InfoPlist.strings Core/en.lproj/InfoPlist.strings    cd /Users/jbarrow/Desktop/Core    setenv PATH "/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP5.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP5.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/en.lproj -- Core/en.lproj/InfoPlist.strings36"BB4812A5-2147-4B0E-912A-980A2FD0306B-
 b26A76706-6063-4259-BC0A-168B96BC0489
 
+CCopyStringsFile /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/en.lproj/InfoPlist.strings Core/en.lproj/InfoPlist.strings
+r0
+
 CCpHeader Core/NSArray+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSArray+Jukaela.h
-s398876149.199706
-e398876149.201505
+s398914880.052248
+e398914880.053957
 r1
 xCpHeader
 xCore/NSArray+Jukaela.h
 xbuild/Debug-iphonesimulator/Core.framework/Headers/NSArray+Jukaela.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/Core.framework/Headers/NSArray+Jukaela.h100"CpHeader Core/NSArray+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSArray+Jukaela.h906733f55dc6b741^53af33f55dc6b741^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Headers/NSArray+Jukaela.h00340ceddeffdf42^509"CpHeader Core/NSArray+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSArray+Jukaela.h    cd /Users/jbarrow/Desktop/Core    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/jbarrow/Desktop/Core/Core/NSArray+Jukaela.h /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Headers36"FB1A8CAD-11E0-4BA3-AB58-4CE197890D25-
-b0579B3FF-271E-493D-88A5-EC0EFB0972A8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/Core.framework/Headers/NSArray+Jukaela.h100"CpHeader Core/NSArray+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSArray+Jukaela.h62a20d40f5c6b741^93ff0d40f5c6b741^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Headers/NSArray+Jukaela.h0000000000000000^1457"CpHeader Core/NSArray+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSArray+Jukaela.h    cd /Users/jbarrow/Projects/iOS/Core    setenv PATH "/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/jbarrow/Projects/iOS/Core/Core/NSArray+Jukaela.h /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Headers36"ED01A1AA-F4C8-448F-80E8-39287DF51F8B-
+b0E52FBD8-986E-4105-B233-08DE97B9A14A
 
 CCpHeader Core/NSMutableURLRequest+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSMutableURLRequest+Jukaela.h
-s398876149.199366
-e398876149.201139
+s398914880.051947
+e398914880.053760
 r1
 xCpHeader
 xCore/NSMutableURLRequest+Jukaela.h
 xbuild/Debug-iphonesimulator/Core.framework/Headers/NSMutableURLRequest+Jukaela.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy build/Debug-iphonesimulator/Core.framework/Headers/NSMutableURLRequest+Jukaela.h124"CpHeader Core/NSMutableURLRequest+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSMutableURLRequest+Jukaela.h6e5033f55dc6b741^878833f55dc6b741^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Headers/NSMutableURLRequest+Jukaela.h00340ceddeffdf42^545"CpHeader Core/NSMutableURLRequest+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSMutableURLRequest+Jukaela.h    cd /Users/jbarrow/Desktop/Core    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/jbarrow/Desktop/Core/Core/NSMutableURLRequest+Jukaela.h /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Headers36"F320E7B0-546F-45E2-8231-29D5145419EB-
-b0579B3FF-271E-493D-88A5-EC0EFB0972A8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy build/Debug-iphonesimulator/Core.framework/Headers/NSMutableURLRequest+Jukaela.h124"CpHeader Core/NSMutableURLRequest+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSMutableURLRequest+Jukaela.hcd910d40f5c6b741^29ce0d40f5c6b741^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Headers/NSMutableURLRequest+Jukaela.h0000000000000000^1493"CpHeader Core/NSMutableURLRequest+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSMutableURLRequest+Jukaela.h    cd /Users/jbarrow/Projects/iOS/Core    setenv PATH "/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/jbarrow/Projects/iOS/Core/Core/NSMutableURLRequest+Jukaela.h /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Headers36"C58A92C5-D4D6-4960-93E2-0FE5FDFCACAE-
+b0E52FBD8-986E-4105-B233-08DE97B9A14A
 
 CCpHeader Core/NSString+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSString+Jukaela.h
-s398876149.199627
-e398876149.201472
+s398914880.052161
+e398914880.053938
 r1
 xCpHeader
 xCore/NSString+Jukaela.h
 xbuild/Debug-iphonesimulator/Core.framework/Headers/NSString+Jukaela.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug-iphonesimulator/Core.framework/Headers/NSString+Jukaela.h102"CpHeader Core/NSString+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSString+Jukaela.h526233f55dc6b741^05a233f55dc6b741^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Headers/NSString+Jukaela.h00340ceddeffdf42^512"CpHeader Core/NSString+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSString+Jukaela.h    cd /Users/jbarrow/Desktop/Core    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/jbarrow/Desktop/Core/Core/NSString+Jukaela.h /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Headers36"40F97C0B-520D-4191-8D3E-CECAC8F3E98E-
-b0579B3FF-271E-493D-88A5-EC0EFB0972A8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug-iphonesimulator/Core.framework/Headers/NSString+Jukaela.h102"CpHeader Core/NSString+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSString+Jukaela.hf6970d40f5c6b741^21e70d40f5c6b741^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Headers/NSString+Jukaela.h0000000000000000^1460"CpHeader Core/NSString+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/NSString+Jukaela.h    cd /Users/jbarrow/Projects/iOS/Core    setenv PATH "/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/jbarrow/Projects/iOS/Core/Core/NSString+Jukaela.h /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Headers36"3C037307-E37A-45F3-865E-AC4123ECBA46-
+b0E52FBD8-986E-4105-B233-08DE97B9A14A
 
 CCpHeader Core/UIImage+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/UIImage+Jukaela.h
-s398876149.199469
-e398876149.201036
+s398914880.052045
+e398914880.053680
 r1
 xCpHeader
 xCore/UIImage+Jukaela.h
 xbuild/Debug-iphonesimulator/Core.framework/Headers/UIImage+Jukaela.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/Core.framework/Headers/UIImage+Jukaela.h100"CpHeader Core/UIImage+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/UIImage+Jukaela.h924033f55dc6b741^c47a33f55dc6b741^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Headers/UIImage+Jukaela.h00340ceddeffdf42^509"CpHeader Core/UIImage+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/UIImage+Jukaela.h    cd /Users/jbarrow/Desktop/Core    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/jbarrow/Desktop/Core/Core/UIImage+Jukaela.h /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Headers36"FDEA6DC4-5D62-427C-99AC-E1BDA1A95248-
-b0579B3FF-271E-493D-88A5-EC0EFB0972A8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/Core.framework/Headers/UIImage+Jukaela.h100"CpHeader Core/UIImage+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/UIImage+Jukaela.h16890d40f5c6b741^f5be0d40f5c6b741^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Headers/UIImage+Jukaela.h0000000000000000^1457"CpHeader Core/UIImage+Jukaela.h build/Debug-iphonesimulator/Core.framework/Headers/UIImage+Jukaela.h    cd /Users/jbarrow/Projects/iOS/Core    setenv PATH "/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/jbarrow/Projects/iOS/Core/Core/UIImage+Jukaela.h /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Headers36"3EA0B6CB-3F9B-41D7-A756-B3728A5B7DA8-
+b0E52FBD8-986E-4105-B233-08DE97B9A14A
 
 CCpResource Core/module.map build/Debug-iphonesimulator/Core.framework/module.map
 s398875988.651063
@@ -359,6 +723,40 @@ old: warning: unexpected dylib (/Applications/Xcode5-DP5.app/Contents/Developer/
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Link /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Core62"Ld build/Debug-iphonesimulator/Core.framework/Core normal i386d8d3a2545dc6b741^7785a6545dc6b741^-673"ld: warning: unexpected dylib (/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//UIKit.framework/UIKit) on link lineld: warning: unexpected dylib (/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//Foundation.framework/Foundation) on link lineld: warning: unexpected dylib (/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//CoreFoundation.framework/CoreFoundation) on link line3(21%IDEActivityLogMessage2@201"Unexpected dylib (/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//UIKit.framework/UIKit) on link line-398875988#0#215#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@211"Unexpected dylib (/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//Foundation.framework/Foundation) on link line-398875988#215#225#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@219"Unexpected dylib (/Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//CoreFoundation.framework/CoreFoundation) on link line-398875988#440#233#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--1071"Ld build/Debug-iphonesimulator/Core.framework/Core normal i386    cd /Users/jbarrow/Desktop/Core    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -r -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator -F/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator -filelist /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/Core.LinkFileList -nostdlib -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework UIKit -framework Foundation -framework CoreFoundation -Xlinker -dependency_info -Xlinker /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/Core_dependency_info.dat -o /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Core36"0A9F41BB-D728-40C6-BAA9-9F9FA0DCFC98-
 bDEBF4B1D-7436-49A1-8960-10164D744B53
 
+CLd /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Core normal i386
+s398914880.032562
+e398914880.051027
+r1
+xLd
+x/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Core
+xnormal
+xi386
+d/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/Core.LinkFileList
+d/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSMutableURLRequest+Jukaela.o
+d/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/UIImage+Jukaela.o
+d/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSString+Jukaela.o
+d/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSArray+Jukaela.o
+d/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSNull+Jukaela.o
+d/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/NSDate+Jukaela.o
+d/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+d/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/vImage
+d/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/vecLib
+d/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvDSP.dylib
+d/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.A.dylib
+d/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libLAPACK.dylib
+d/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib
+d/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvMisc.dylib
+old: warning: unexpected dylib (/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//Accelerate.framework/Accelerate) on link line
+old: warning: unexpected dylib (/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//UIKit.framework/UIKit) on link line
+old: warning: unexpected dylib (/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//Foundation.framework/Foundation) on link line
+old: warning: unexpected dylib (/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//CoreFoundation.framework/CoreFoundation) on link line
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Link /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Core62"Ld build/Debug-iphonesimulator/Core.framework/Core normal i386c18d0840f5c6b741^6f100d40f5c6b741^-898"ld: warning: unexpected dylib (/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//Accelerate.framework/Accelerate) on link lineld: warning: unexpected dylib (/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//UIKit.framework/UIKit) on link lineld: warning: unexpected dylib (/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//Foundation.framework/Foundation) on link lineld: warning: unexpected dylib (/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//CoreFoundation.framework/CoreFoundation) on link line4(21%IDEActivityLogMessage2@211"Unexpected dylib (/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//Accelerate.framework/Accelerate) on link line-398914880#0#225#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@201"Unexpected dylib (/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//UIKit.framework/UIKit) on link line-398914880#225#215#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@211"Unexpected dylib (/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//Foundation.framework/Foundation) on link line-398914880#440#225#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@219"Unexpected dylib (/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks//CoreFoundation.framework/CoreFoundation) on link line-398914880#665#233#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--2056"Ld build/Debug-iphonesimulator/Core.framework/Core normal i386    cd /Users/jbarrow/Projects/iOS/Core    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -r -isysroot /Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator -F/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator -filelist /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/Core.LinkFileList -nostdlib -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework Accelerate -framework UIKit -framework Foundation -framework CoreFoundation -Xlinker -dependency_info -Xlinker /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Objects-normal/i386/Core_dependency_info.dat -o /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Core36"B92080F1-BBDD-41EF-9B0F-BF7983C8B982-
+b0E52FBD8-986E-4105-B233-08DE97B9A14A
+
 CProcessInfoPlistFile /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Info.plist /Users/jbarrow/Desktop/Core/Core/Core-Info.plist
 s398875825.550286
 e398875825.551975
@@ -368,6 +766,9 @@ x/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Info.pli
 x/Users/jbarrow/Desktop/Core/Core/Core-Info.plist
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Process /Users/jbarrow/Desktop/Core/Core/Core-Info.plist95"ProcessInfoPlistFile build/Debug-iphonesimulator/Core.framework/Info.plist Core/Core-Info.plistd7138db15cc6b741^5d4e8db15cc6b741^---0#0#1#-19%DVTDocumentLocation2@55"file:///Users/jbarrow/Desktop/Core/Core/Core-Info.plist0000000000000000^356"ProcessInfoPlistFile build/Debug-iphonesimulator/Core.framework/Info.plist Core/Core-Info.plist    cd /Users/jbarrow/Desktop/Core    builtin-infoPlistUtility /Users/jbarrow/Desktop/Core/Core/Core-Info.plist -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework/Info.plist36"F3248A66-5F81-4691-B2EB-376FC6AC6D31-
 bCAF0E8C2-A9CD-4A51-917B-CF1AD292B806
+
+CProcessInfoPlistFile /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework/Info.plist /Users/jbarrow/Projects/iOS/Core/Core/Core-Info.plist
+r0
 
 CProcessPCH /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Core-Prefix-dqosfuqwldggqpgyjouizswxyiqc/Core-Prefix.pch.pch Core/Core-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s398875987.656911
@@ -384,6 +785,21 @@ d/Users/jbarrow/Desktop/Core/Core/Core-Prefix.pch
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Core/Core-Prefix.pch297"ProcessPCH /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Core-Prefix-dqosfuqwldggqpgyjouizswxyiqc/Core-Prefix.pch.pch Core/Core-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera569a8535dc6b741^df3198545dc6b741^---0#0#1#-19%DVTDocumentLocation2@55"file:///Users/jbarrow/Desktop/Core/Core/Core-Prefix.pch0000000000000000^3374"ProcessPCH /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Core-Prefix-dqosfuqwldggqpgyjouizswxyiqc/Core-Prefix.pch.pch Core/Core-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbarrow/Desktop/Core    setenv LANG en_US.US-ASCII    /Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5-DP5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-generated-files.hmap -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-own-target-headers.hmap -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-all-target-headers.hmap -iquote /Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-project-headers.hmap -I/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/include -I/Applications/Xcode5-DP5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources/i386 -I/Users/jbarrow/Desktop/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources -F/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Core-Prefix-dqosfuqwldggqpgyjouizswxyiqc/Core-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Core-Prefix-dqosfuqwldggqpgyjouizswxyiqc/Core-Prefix.pch.d -c /Users/jbarrow/Desktop/Core/Core/Core-Prefix.pch -o /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11365x/Xcode/5.0-5A11365x/Xcode/SharedPrecompiledHeaders/Core-Prefix-dqosfuqwldggqpgyjouizswxyiqc/Core-Prefix.pch.pch36"184809D7-E94A-41CF-BD86-8468B10B78DD-
 bDEBF4B1D-7436-49A1-8960-10164D744B53
 
+CProcessPCH /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch.pch Core/Core-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398913969.733738
+e398913971.550229
+r1
+xProcessPCH
+x/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch.pch
+xCore/Core-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jbarrow/Projects/iOS/Core/Core/Core-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Core/Core-Prefix.pch297"ProcessPCH /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch.pch Core/Core-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd84abcb1f1c6b741^9cdb8cb3f1c6b741^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/jbarrow/Projects/iOS/Core/Core/Core-Prefix.pch0000000000000000^4357"ProcessPCH /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch.pch Core/Core-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbarrow/Projects/iOS/Core    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP6.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP6.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5-DP6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-generated-files.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-own-target-headers.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-all-target-headers.hmap -iquote /Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/Core-project-headers.hmap -I/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/include -I/Applications/Xcode5-DP6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources/i386 -I/Users/jbarrow/Projects/iOS/Core/build/Core.build/Debug-iphonesimulator/Core.build/DerivedSources -F/Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch.d -c /Users/jbarrow/Projects/iOS/Core/Core/Core-Prefix.pch -o /var/folders/n9/4cmp874s0dgd9qdxkmbyzy_r0000gp/C/com.apple.DeveloperTools/5.0-5A11386k/Xcode/5.0-5A11386k/Xcode/SharedPrecompiledHeaders/Core-Prefix-daydruxibmujbwcnptixdkpnlmbo/Core-Prefix.pch.pch36"5610504D-970C-4C14-A016-B38BBA5F883B-
+b1F488992-041B-42C8-85CB-0A824FEBCBFF
+
 CTouch /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework
 s398875825.552590
 e398875825.557632
@@ -392,4 +808,7 @@ xTouch
 x/Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Touch /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework48"Touch build/Debug-iphonesimulator/Core.frameworkd3a38db15cc6b741^1ac18eb15cc6b741^---0#0#1#--177"Touch build/Debug-iphonesimulator/Core.framework    cd /Users/jbarrow/Desktop/Core    /usr/bin/touch -c /Users/jbarrow/Desktop/Core/build/Debug-iphonesimulator/Core.framework36"148D182C-CF41-4197-9515-C60C008F1123-
 bCAF0E8C2-A9CD-4A51-917B-CF1AD292B806
+
+CTouch /Users/jbarrow/Projects/iOS/Core/build/Debug-iphonesimulator/Core.framework
+r0
 

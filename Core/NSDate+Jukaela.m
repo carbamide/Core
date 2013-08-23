@@ -1,8 +1,8 @@
 //
-//  NSMutableURLRequest+Jukaela.h
+//  NSDate+Jukaela.h
 //  JukaelaCore
 //
-//  Created by Josh on 8/21/13.
+//  Created by Josh Barrow on 5/6/12.
 //  Copyright (c) 2013 Jukaela Enterprises.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,35 +24,39 @@
 //  THE SOFTWARE.
 //
 
-/**
- NSMutableURLRequest helper methods.  These methods make it easy to form POST and GET requests.
- */
+#import "NSDate+Jukaela.h"
 
-@interface NSMutableURLRequest (Jukaela)
+@implementation NSDate (Jukaela)
 
-///---------------------------------------
-/// @name Class Methods
-///---------------------------------------
++ (NSDate *)dateWithISO8601String:(NSString *)dateString withFormatter:(NSDateFormatter *)formatter
+{
+    if (!dateString) {
+        return nil;
+    }
+    
+    if ([dateString hasSuffix:@"Z"]) {
+        dateString = [[dateString substringToIndex:(dateString.length-1)] stringByAppendingString:@"-0000"];
+    }
+    
+    return [self dateFromString:dateString withFormat:@"yyyy-MM-dd'T'HH:mm:ssZ" withFormatter:formatter];
+}
 
-/** Creates GET request
- 
- The method will return nil if the 'NSURL' passed is nil
- 
- @param url The 'NSURL' to from the request to
- @param timeoutInterval The 'NSInteger' time, in whole seconds, to wait until failing the connection
- @return 'NSMutableURLRequest'
- */
-+(NSMutableURLRequest *)getRequestWithURL:(NSURL *)url timeout:(NSInteger)timeoutInterval;
++ (NSDate *)dateFromString:(NSString *)dateString withFormat:(NSString *)dateFormat withFormatter:(NSDateFormatter *)formatter
+{    
+    [formatter setDateFormat:dateFormat];
+        
+    NSDate *date = [formatter dateFromString:dateString];
+    
+    return date;
+}
 
-/** Creates POST request
- 
- The method will return nil if the 'NSURL' passed is nil
- 
- @param url The 'NSURL' to from the request to
- @param data 'NSData' to pass in the POST request
- @param timeoutInterval The 'NSInteger' time, in whole seconds, to wait until failing the connection
- @return 'NSMutableURLRequest'
- */
-+(NSMutableURLRequest *)postRequestWithURL:(NSURL *)url withData:(NSData *)data timeout:(NSInteger)timeoutInterval;
++ (int)daysBetweenDate:(NSDate *)dateOne andDate:(NSDate *)dateTwo options:(NSCalendarOptions)options
+{
+    NSUInteger unitFlags = NSDayCalendarUnit;
+    
+    NSDateComponents *components = [[NSCalendar currentCalendar] components:unitFlags fromDate:dateOne toDate:dateTwo options:options];
+    
+    return [components day]+1;
+}
 
 @end

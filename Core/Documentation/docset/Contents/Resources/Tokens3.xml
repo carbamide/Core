@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Categories/NSString+Jukaela.html">
+	<File path="Categories/NSMutableURLRequest+Jukaela.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cat/NSString(Jukaela)</TokenIdentifier>
-			<Abstract type="html">NSString helper methods.</Abstract>
-			<DeclaredIn>NSString+Jukaela.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cat/NSMutableURLRequest(Jukaela)</TokenIdentifier>
+			<Abstract type="html">NSMutableURLRequest helper methods.  These methods make it easy to form POST and GET requests.</Abstract>
+			<DeclaredIn>NSMutableURLRequest+Jukaela.h</DeclaredIn>
 			
 			<NodeRef refid="3"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/NSString(Jukaela)/documentsPath</TokenIdentifier>
-			<Abstract type="html">The home folder for the current application on iOS, or the user&apos;s home folder on Macintosh.</Abstract>
-			<DeclaredIn>NSString+Jukaela.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/intfm/NSMutableURLRequest(Jukaela)/getRequestWithURL:timeout:</TokenIdentifier>
+			<Abstract type="html">Creates GET request</Abstract>
+			<DeclaredIn>NSMutableURLRequest+Jukaela.h</DeclaredIn>			
 			
-			<Declaration>+ (NSString *)documentsPath</Declaration>
+			<Declaration>+ (NSMutableURLRequest *)getRequestWithURL:(NSURL *)url timeout:(NSInteger)timeoutInterval</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The &apos;NSURL&apos; to from the request to</Abstract>
+				</Parameter><Parameter>
+					<Name>timeoutInterval</Name>
+					<Abstract type="html">The &apos;NSInteger&apos; time, in whole seconds, to wait until failing the connection</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">&apos;NSMutableURLRequest&apos;</Abstract></ReturnValue>
+			<Anchor>//api/name/getRequestWithURL:timeout:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSMutableURLRequest(Jukaela)/postRequestWithURL:withData:timeout:</TokenIdentifier>
+			<Abstract type="html">Creates POST request</Abstract>
+			<DeclaredIn>NSMutableURLRequest+Jukaela.h</DeclaredIn>			
 			
-			<ReturnValue><Abstract type="html">&apos;NSString&apos; of the path of the home folder.</Abstract></ReturnValue>
-			<Anchor>//api/name/documentsPath</Anchor>
+			<Declaration>+ (NSMutableURLRequest *)postRequestWithURL:(NSURL *)url withData:(NSData *)data timeout:(NSInteger)timeoutInterval</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The &apos;NSURL&apos; to from the request to</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">&apos;NSData&apos; to pass in the POST request</Abstract>
+				</Parameter><Parameter>
+					<Name>timeoutInterval</Name>
+					<Abstract type="html">The &apos;NSInteger&apos; time, in whole seconds, to wait until failing the connection</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">&apos;NSMutableURLRequest&apos;</Abstract></ReturnValue>
+			<Anchor>//api/name/postRequestWithURL:withData:timeout:</Anchor>
 		</Token>
 		
 	</File>
