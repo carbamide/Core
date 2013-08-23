@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B057133F-937E-4FC2-9A04-2CE201A46A16</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Core</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>641A708F-5B48-4B09-8F86-010C1BFFC130</key>
+		<string>https://github.com/carbamide/Core.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Core.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>641A708F-5B48-4B09-8F86-010C1BFFC130</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/carbamide/Core.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>641A708F-5B48-4B09-8F86-010C1BFFC130</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>641A708F-5B48-4B09-8F86-010C1BFFC130</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Core</string>
+		</dict>
+	</array>
+</dict>
+</plist>

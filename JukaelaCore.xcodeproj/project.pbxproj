@@ -22,6 +22,8 @@
 
 /* Begin PBXBuildFile section */
 		2972166917C7E89B0003B177 /* JukaelaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AC595917C65CF800B8DE73 /* JukaelaCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297EACF617C813C60026EF83 /* JukaelaButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 297EACF417C813C60026EF83 /* JukaelaButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297EACF717C813C60026EF83 /* JukaelaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 297EACF517C813C60026EF83 /* JukaelaButton.m */; };
 		2999C49917C6EBAB00CC4495 /* NSNull+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 2999C49717C6EBAB00CC4495 /* NSNull+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2999C49A17C6EBAB00CC4495 /* NSNull+Jukaela.m in Sources */ = {isa = PBXBuildFile; fileRef = 2999C49817C6EBAB00CC4495 /* NSNull+Jukaela.m */; };
 		29AC593D17C657AE00B8DE73 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AC593C17C657AE00B8DE73 /* CoreFoundation.framework */; };
@@ -54,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		297EACF417C813C60026EF83 /* JukaelaButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JukaelaButton.h; sourceTree = "<group>"; };
+		297EACF517C813C60026EF83 /* JukaelaButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JukaelaButton.m; sourceTree = "<group>"; };
 		2999C49717C6EBAB00CC4495 /* NSNull+Jukaela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Jukaela.h"; sourceTree = "<group>"; };
 		2999C49817C6EBAB00CC4495 /* NSNull+Jukaela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Jukaela.m"; sourceTree = "<group>"; };
 		29AC593917C657AE00B8DE73 /* JukaelaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JukaelaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +112,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		297C93FB17C8146D005289EF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				297EACF417C813C60026EF83 /* JukaelaButton.h */,
+				297EACF517C813C60026EF83 /* JukaelaButton.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		297C93FC17C81473005289EF /* Catagories */ = {
+			isa = PBXGroup;
+			children = (
+				29CDD99117C6EF010047567B /* NSDate+Jukaela.h */,
+				29CDD99217C6EF010047567B /* NSDate+Jukaela.m */,
+				2999C49717C6EBAB00CC4495 /* NSNull+Jukaela.h */,
+				2999C49817C6EBAB00CC4495 /* NSNull+Jukaela.m */,
+				29AC595A17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.h */,
+				29AC595B17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.m */,
+				29AC595C17C65CF800B8DE73 /* NSString+Jukaela.h */,
+				29AC595D17C65CF800B8DE73 /* NSString+Jukaela.m */,
+				29AC595E17C65CF800B8DE73 /* NSArray+Jukaela.h */,
+				29AC595F17C65CF800B8DE73 /* NSArray+Jukaela.m */,
+				29AC596017C65CF800B8DE73 /* UIImage+Jukaela.h */,
+				29AC596117C65CF800B8DE73 /* UIImage+Jukaela.m */,
+			);
+			name = Catagories;
+			sourceTree = "<group>";
+		};
 		29AC593017C657AE00B8DE73 = {
 			isa = PBXGroup;
 			children = (
@@ -143,18 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				29AC595917C65CF800B8DE73 /* JukaelaCore.h */,
-				29CDD99117C6EF010047567B /* NSDate+Jukaela.h */,
-				29CDD99217C6EF010047567B /* NSDate+Jukaela.m */,
-				2999C49717C6EBAB00CC4495 /* NSNull+Jukaela.h */,
-				2999C49817C6EBAB00CC4495 /* NSNull+Jukaela.m */,
-				29AC595A17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.h */,
-				29AC595B17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.m */,
-				29AC595C17C65CF800B8DE73 /* NSString+Jukaela.h */,
-				29AC595D17C65CF800B8DE73 /* NSString+Jukaela.m */,
-				29AC595E17C65CF800B8DE73 /* NSArray+Jukaela.h */,
-				29AC595F17C65CF800B8DE73 /* NSArray+Jukaela.m */,
-				29AC596017C65CF800B8DE73 /* UIImage+Jukaela.h */,
-				29AC596117C65CF800B8DE73 /* UIImage+Jukaela.m */,
+				297C93FB17C8146D005289EF /* Classes */,
+				297C93FC17C81473005289EF /* Catagories */,
 				29AC593F17C657AE00B8DE73 /* Supporting Files */,
 			);
 			path = Core;
@@ -198,6 +220,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				297EACF617C813C60026EF83 /* JukaelaButton.h in Headers */,
 				29AC598517C65DE300B8DE73 /* NSMutableURLRequest+Jukaela.h in Headers */,
 				29AC598817C65DE900B8DE73 /* UIImage+Jukaela.h in Headers */,
 				29AC598617C65DE500B8DE73 /* NSString+Jukaela.h in Headers */,
@@ -320,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29AC596217C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.m in Sources */,
+				297EACF717C813C60026EF83 /* JukaelaButton.m in Sources */,
 				29AC596517C65CF800B8DE73 /* UIImage+Jukaela.m in Sources */,
 				29AC596317C65CF800B8DE73 /* NSString+Jukaela.m in Sources */,
 				29AC596417C65CF800B8DE73 /* NSArray+Jukaela.m in Sources */,

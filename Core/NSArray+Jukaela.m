@@ -25,6 +25,7 @@
 //
 
 #import "NSArray+Jukaela.h"
+#import "NSString+Jukaela.h"
 
 static NSString *const kRegularExpression = @"http?://([-\\w\\.]+)+(:\\d+)?(/([\\w/_\\.]*(\\?\\S+)?)?)?";
 
@@ -43,7 +44,7 @@ static NSString *const kRegularExpression = @"http?://([-\\w\\.]+)+(:\\d+)?(/([\
         
         [arrayOfURLs addObject:substringForMatch];
     }
-
+    
     return [NSArray arrayWithArray:arrayOfURLs];
 }
 
@@ -77,5 +78,37 @@ static NSString *const kRegularExpression = @"http?://([-\\w\\.]+)+(:\\d+)?(/([\
     
     return tempArray;
 }
+
++(NSArray *)availableFilesForFileType:(NSArray *)fileTypes
+{
+	NSMutableArray *tempArray = [[NSMutableArray alloc] init];
+	
+	NSString *documentsDirectoryPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+	
+	NSArray *documentsDirectoryContents = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:[NSString documentsPath] error:NULL];
+	
+    for (NSString *curFileName in [documentsDirectoryContents objectEnumerator]) {
+        NSString *filePath = [documentsDirectoryPath stringByAppendingPathComponent:curFileName];
+        
+        if (!([curFileName isEqualToString:@"Inbox"])) {
+            for (NSString *tempPathComponentString in fileTypes) {
+                if ([[curFileName lastPathComponent] rangeOfString:tempPathComponentString options:NSCaseInsensitiveSearch].location != NSNotFound) {
+                    [tempArray addObject:filePath];
+                }
+            }
+			
+			BOOL isDirectory = NO;
+			
+			[[NSFileManager defaultManager] fileExistsAtPath:filePath isDirectory:&isDirectory];
+			
+			if (isDirectory) {
+				[tempArray addObject:filePath];
+			}
+        }
+	}
+    
+    return tempArray;
+}
+
 
 @end

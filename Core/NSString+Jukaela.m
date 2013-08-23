@@ -33,6 +33,15 @@
     return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
 }
 
+-(NSString *)applicationSupportPath
+{
+    NSArray *tempArray = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES);
+    
+    NSString *documentsDirectory = tempArray[0];
+    
+    return documentsDirectory;
+}
+
 -(NSString *)stringWithSlashEscapes
 {
     NSString *escapedString = nil;

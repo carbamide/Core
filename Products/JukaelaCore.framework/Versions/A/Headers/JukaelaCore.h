@@ -1,6 +1,6 @@
 //
-//  NSString+Jukaela.h
-//  JukaelaCore
+//  JukaelaCore.h
+//  Core
 //
 //  Created by Josh on 8/21/13.
 //  Copyright (c) 2013 Jukaela Enterprises.
@@ -24,34 +24,9 @@
 //  THE SOFTWARE.
 //
 
-@import Foundation;
-
-/**
- NSString helper methods.
- */
-@interface NSString (Jukaela)
-
-///---------------------------------------
-/// @name Class Methods
-///---------------------------------------
-
-/** The home folder for the current application on iOS, or the user's home folder on Macintosh.
- @return 'NSString' of the path of the home folder.
- */
-+(NSString *)documentsPath;
-
-/** The app's support folder
- @return 'NSString' of the path of the support folder.
- */
-+(NSString *)applicationSupportPath;
-
-///---------------------------------------
-/// @name Instance Methods
-///---------------------------------------
-
-/** Read string and escape any characters that might throw issues
- @return 'NSString' that has been escaped.
- */
--(NSString *)stringWithSlashEscapes;
-
-@end
+#import "NSMutableURLRequest+Jukaela.h"
+#import "NSString+Jukaela.h"
+#import "NSArray+Jukaela.h"
+#import "NSDate+Jukaela.h"
+#import "NSNull+Jukaela.h"
+#import "UIImage+Jukaela.h"
