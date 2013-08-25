@@ -1,52 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Categories/NSArray+Jukaela.html">
+	<File path="Classes/Base64.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cat/NSArray(Jukaela)</TokenIdentifier>
-			<Abstract type="html">NSArray helper methods that may be useful in social networking applications.</Abstract>
-			<DeclaredIn>NSArray+Jukaela.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/Base64</TokenIdentifier>
+			<Abstract type="html">Base64 implementation</Abstract>
+			<DeclaredIn>Base64.h</DeclaredIn>
 			
 			<NodeRef refid="1"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/NSArray(Jukaela)/arrayOfURLsFromString:error:</TokenIdentifier>
-			<Abstract type="html">Creates and &apos;NSArray&apos; of URLs as &apos;NSString&apos;s.</Abstract>
-			<DeclaredIn>NSArray+Jukaela.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/clm/Base64/initialize</TokenIdentifier>
+			<Abstract type="html">Initialization of the class</Abstract>
+			<DeclaredIn>Base64.h</DeclaredIn>			
 			
-			<Declaration>+ (NSArray *)arrayOfURLsFromString:(NSString *)stringToCheck error:(NSError *)error</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>stringToCheck</Name>
-					<Abstract type="html">The &apos;NSString&apos; to check for URLs</Abstract>
-				</Parameter><Parameter>
-					<Name>error</Name>
-					<Abstract type="html">&apos;NSError&apos; that will be populated by any errors.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;NSArray&apos; of URLs as &apos;NSString&apos;s</Abstract></ReturnValue>
-			<Anchor>//api/name/arrayOfURLsFromString:error:</Anchor>
+			<Declaration>+ (void)initialize</Declaration>
+			
+			
+			<Anchor>//api/name/initialize</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/NSArray(Jukaela)/splitString:maxCharacters:</TokenIdentifier>
-			<Abstract type="html">Splits a given &apos;NSString&apos; into multiple parts, no greater in length than &apos;maxLength&apos;</Abstract>
-			<DeclaredIn>NSArray+Jukaela.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/clm/Base64/encode:length:</TokenIdentifier>
+			<Abstract type="html">Encode to base64 string</Abstract>
+			<DeclaredIn>Base64.h</DeclaredIn>			
 			
-			<Declaration>+ (NSArray *)splitString:(NSString *)stringToSplit maxCharacters:(NSInteger)maxLength</Declaration>
+			<Declaration>+ (NSString *)encode:(const unsigned char *)input length:(NSInteger)length</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>stringToSplit</Name>
-					<Abstract type="html">The &apos;NSString&apos; that needs to be split into parts</Abstract>
+					<Name>input</Name>
+					<Abstract type="html">const unsigned char pointer</Abstract>
 				</Parameter><Parameter>
-					<Name>maxLength</Name>
-					<Abstract type="html">&apos;NSInteger&apos; that specifies that maximum length that each &apos;NSString&apos; the returned &apos;NSArray&apos; can be</Abstract>
+					<Name>length</Name>
+					<Abstract type="html">Length of input</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;NSArray&apos; of &apos;NSString&apos;s that are no greater than &apos;maxLength&apos;</Abstract></ReturnValue>
-			<Anchor>//api/name/splitString:maxCharacters:</Anchor>
+			<ReturnValue><Abstract type="html">&apos;NSString&apos; of Base64 encoded text</Abstract></ReturnValue>
+			<Anchor>//api/name/encode:length:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Base64/encode:</TokenIdentifier>
+			<Abstract type="html">Encode to base64 string</Abstract>
+			<DeclaredIn>Base64.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)encode:(NSData *)rawBytes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rawBytes</Name>
+					<Abstract type="html">&apos;NSData&apos; input.  Usually from a webservice, or by converting an NSString to NSDate.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">&apos;NSString&apos; of base64 encoded text</Abstract></ReturnValue>
+			<Anchor>//api/name/encode:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Base64/decode:length:</TokenIdentifier>
+			<Abstract type="html">Decode base64 text to &apos;NSData&apos;</Abstract>
+			<DeclaredIn>Base64.h</DeclaredIn>			
+			
+			<Declaration>+ (NSData *)decode:(const char *)string length:(NSInteger)inputLength</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">const char pointer of input string</Abstract>
+				</Parameter><Parameter>
+					<Name>inputLength</Name>
+					<Abstract type="html">Length of &apos;string&apos;</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">&apos;NSData&apos; of decoded base64 information</Abstract></ReturnValue>
+			<Anchor>//api/name/decode:length:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Base64/decode:</TokenIdentifier>
+			<Abstract type="html">Decode base64 text to &apos;NSData&apos;</Abstract>
+			<DeclaredIn>Base64.h</DeclaredIn>			
+			
+			<Declaration>+ (NSData *)decode:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">&apos;NSString&apos; of base64 data</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">&apos;NSData&apos; of decoded base64 information</Abstract></ReturnValue>
+			<Anchor>//api/name/decode:</Anchor>
 		</Token>
 		
 	</File>

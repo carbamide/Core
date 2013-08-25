@@ -7,17 +7,28 @@
 			<Subnodes>
                 
 				
-				
 				<Node type="folder">
-					<Name>Categories</Name>
+					<Name>Classes</Name>
 					<Path>index.html</Path>
 					<Subnodes>
 						<NodeRef refid="1"/>
 						<NodeRef refid="2"/>
 						<NodeRef refid="3"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
 						<NodeRef refid="4"/>
 						<NodeRef refid="5"/>
 						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
 						
 					</Subnodes>
 				</Node>
@@ -28,28 +39,40 @@
     </TOC>
 	<Library>
 		
-		
 		<Node id="1">
+			<Name>Base64</Name>
+			<Path>Classes/Base64.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>JukaelaButton</Name>
+			<Path>Classes/JukaelaButton.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>JukaelaTextView</Name>
+			<Path>Classes/JukaelaTextView.html</Path>
+		</Node>
+		
+		<Node id="4">
 			<Name>NSArray(Jukaela)</Name>
 			<Path>Categories/NSArray+Jukaela.html</Path>
 		</Node>
-		<Node id="2">
+		<Node id="5">
 			<Name>NSDate(Jukaela)</Name>
 			<Path>Categories/NSDate+Jukaela.html</Path>
 		</Node>
-		<Node id="3">
+		<Node id="6">
 			<Name>NSMutableURLRequest(Jukaela)</Name>
 			<Path>Categories/NSMutableURLRequest+Jukaela.html</Path>
 		</Node>
-		<Node id="4">
+		<Node id="7">
 			<Name>NSNull(DontCrash)</Name>
 			<Path>Categories/NSNull+DontCrash.html</Path>
 		</Node>
-		<Node id="5">
+		<Node id="8">
 			<Name>NSString(Jukaela)</Name>
 			<Path>Categories/NSString+Jukaela.html</Path>
 		</Node>
-		<Node id="6">
+		<Node id="9">
 			<Name>UIImage(Jukaela)</Name>
 			<Path>Categories/UIImage+Jukaela.html</Path>
 		</Node>

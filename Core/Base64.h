@@ -1,9 +1,9 @@
 //
-//  NSString+Jukaela.h
+//  Base64.h
 //  JukaelaCore
 //
-//  Created by Josh on 8/21/13.
-//  Copyright (c) 2013 Jukaela Enterprises.
+//  Created by Josh Barrow on 3/6/12.
+//  Copyright (c) 2012 Jukaela Enterprises.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -27,31 +27,55 @@
 @import Foundation;
 
 /**
- NSString helper methods.
+ Base64 implementation
  */
-@interface NSString (Jukaela)
+@interface Base64 : NSObject
 
 ///---------------------------------------
 /// @name Class Methods
 ///---------------------------------------
 
-/** The home folder for the current application on iOS, or the user's home folder on Macintosh.
- @return 'NSString' of the path of the home folder.
+/**
+ Initialization of the class
  */
-+(NSString *)documentsPath;
++(void)initialize;
 
-/** The app's support folder
- @return 'NSString' of the path of the support folder.
+/** Encode to base64 string
+ 
+ This method takes a const unsigned char pointer as the input. 
+ 
+ @param input const unsigned char pointer
+ @param length Length of input
+ @return 'NSString' of Base64 encoded text
  */
-+(NSString *)applicationSupportPath;
++(NSString *)encode:(const unsigned char *)input length:(NSInteger)length;
 
-///---------------------------------------
-/// @name Instance Methods
-///---------------------------------------
-
-/** Read string and escape any characters that might throw issues
- @return 'NSString' that has been escaped.
+/** Encode to base64 string
+ 
+ This method takes NSData as the intput
+ 
+ @param rawBytes 'NSData' input.  Usually from a webservice, or by converting an NSString to NSDate.
+ @return 'NSString' of base64 encoded text
  */
--(NSString *)stringWithSlashEscapes;
++(NSString *)encode:(NSData *)rawBytes;
+
+/** Decode base64 text to 'NSData'
+ 
+ This method takes a const char pointer for the input string.
+ 
+ @param string const char pointer of input string
+ @param inputLength Length of 'string'
+ @return 'NSData' of decoded base64 information
+ */
++(NSData *)decode:(const char *)string length:(NSInteger)inputLength;
+
+/** Decode base64 text to 'NSData'
+ 
+ This method takes an 'NSString' as the input
+ 
+ @param string 'NSString' of base64 data
+ @return 'NSData' of decoded base64 information
+ */
++(NSData *)decode:(NSString *)string;
 
 @end

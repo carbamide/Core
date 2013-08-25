@@ -43,6 +43,22 @@
  */
 +(void)saveImage:(UIImage *)image withFileName:(NSString *)filename;
 
+/** Normalize UIImage for use in simulator
+ 
+ Use of this call should be ifdefed to only be called in the iOS Simulator
+ 
+ @param theImage The 'UIImage' to normalize
+ @return 'UIImage' that has been normalized
+ */
++(UIImage *)normalize:(UIImage *)theImage;
+
+/** Create 'UIImage' of the specified 'UIColor'
+ 
+ @param color The 'UIColor' to create the 'UIImage' from
+ @return 'UIImage' that is the specified 'UIColor'
+ */
++(UIImage *)getImageFromColor:(UIColor *)color;
+
 ///---------------------------------------
 /// @name Instance Methods
 ///---------------------------------------

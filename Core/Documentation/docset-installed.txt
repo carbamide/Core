@@ -1,4 +1,4 @@
 Documentation set was installed to Xcode!
 
 Path: /Users/jbarrow/Library/Developer/Shared/Documentation/DocSets/com.jukaela.Core.docset
-Time: 2013-08-23 01:34:03 +0000
+Time: 2013-08-25 02:36:48 +0000

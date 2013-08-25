@@ -27,7 +27,7 @@
 @import Foundation;
 
 /**
- A category on NSNull that tries to map all common calls that could occur when accidently calling NSNull
+ A useful set of helper methods for NSDate.
  */
 
 @interface NSDate (Jukaela)

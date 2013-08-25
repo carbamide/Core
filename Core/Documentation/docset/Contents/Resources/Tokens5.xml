@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSDate+Jukaela.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDate(Jukaela)</TokenIdentifier>
+			<Abstract type="html">A useful set of helper methods for NSDate.</Abstract>
+			<DeclaredIn>NSDate+Jukaela.h</DeclaredIn>
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(Jukaela)/dateWithISO8601String:withFormatter:</TokenIdentifier>
+			<Abstract type="html">Convert an ISO8601 &apos;NSString&apos; to &apos;NSDate&apos;</Abstract>
+			<DeclaredIn>NSDate+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>+ (NSDate *)dateWithISO8601String:(NSString *)dateString withFormatter:(NSDateFormatter *)formatter</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dateString</Name>
+					<Abstract type="html">The string to convert</Abstract>
+				</Parameter><Parameter>
+					<Name>formatter</Name>
+					<Abstract type="html">The &apos;NSDateFormatter&apos; to use</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">&apos;NSDate&apos; that had been formatted</Abstract></ReturnValue>
+			<Anchor>//api/name/dateWithISO8601String:withFormatter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(Jukaela)/dateFromString:withFormat:withFormatter:</TokenIdentifier>
+			<Abstract type="html">Converts the specified &apos;NSString&apos; to an &apos;NSDate&apos; with the specified date format and formatter</Abstract>
+			<DeclaredIn>NSDate+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>+ (NSDate *)dateFromString:(NSString *)dateString withFormat:(NSString *)dateFormat withFormatter:(NSDateFormatter *)formatter</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dateString</Name>
+					<Abstract type="html">The string to convert</Abstract>
+				</Parameter><Parameter>
+					<Name>dateFormat</Name>
+					<Abstract type="html">The format of the date, in standard format</Abstract>
+				</Parameter><Parameter>
+					<Name>formatter</Name>
+					<Abstract type="html">The &apos;NSDateFormatter&apos; to use</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">&apos;NSDate&apos; that has been formatted</Abstract></ReturnValue>
+			<Anchor>//api/name/dateFromString:withFormat:withFormatter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(Jukaela)/daysBetweenDate:andDate:options:</TokenIdentifier>
+			<Abstract type="html">Number of days between two &apos;NSDate&apos;s</Abstract>
+			<DeclaredIn>NSDate+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>+ (int)daysBetweenDate:(NSDate *)dateOne andDate:(NSDate *)dateTwo options:(NSCalendarOptions)options</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dateOne</Name>
+					<Abstract type="html">First date</Abstract>
+				</Parameter><Parameter>
+					<Name>dateTwo</Name>
+					<Abstract type="html">Second date</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">&apos;NSCalendarOptions&apos; to specify for the calculation</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Number of days in between the two dates, as an int</Abstract></ReturnValue>
+			<Anchor>//api/name/daysBetweenDate:andDate:options:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -27,8 +27,12 @@
 @import Foundation;
 
 /**
- A category on NSNull that tries to map all common calls that could occur when accidently calling NSNull
+ A category on NSNull that tries to map all common calls that could occur when accidently calling NSNull.
+ 
+ Often times when accessing a JSON web service, the service will respond with <null> values.  These values can be incorrectly accessed when trying to access the data
+ contained in the JSON.
  */
+
 @interface NSNull (DontCrash)
 
 ///---------------------------------------

@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
-		<title>NSArray(Jukaela) Category Reference</title>
+		<title>NSDate(Jukaela) Category Reference</title>
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<meta name="viewport" content="width=550" />
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
@@ -17,7 +17,7 @@
 			</div>
 			
 			<div id="title" role="banner">
-				<h1 class="hideInXcode">NSArray(Jukaela) Category Reference</h1>
+				<h1 class="hideInXcode">NSDate(Jukaela) Category Reference</h1>
 			</div>
 			<ul id="headerButtons" role="toolbar">
 				<li id="toc_button">
@@ -42,11 +42,11 @@
 	
 	<option value="class_methods">Class Methods</option>
 	
-	<option value="//api/name/arrayOfURLsFromString:error:">&nbsp;&nbsp;&nbsp;&nbsp;+ arrayOfURLsFromString:error:</option>
+	<option value="//api/name/dateFromString:withFormat:withFormatter:">&nbsp;&nbsp;&nbsp;&nbsp;+ dateFromString:withFormat:withFormatter:</option>
 	
-	<option value="//api/name/availableFilesForFileType:">&nbsp;&nbsp;&nbsp;&nbsp;+ availableFilesForFileType:</option>
+	<option value="//api/name/dateWithISO8601String:withFormatter:">&nbsp;&nbsp;&nbsp;&nbsp;+ dateWithISO8601String:withFormatter:</option>
 	
-	<option value="//api/name/splitString:maxCharacters:">&nbsp;&nbsp;&nbsp;&nbsp;+ splitString:maxCharacters:</option>
+	<option value="//api/name/daysBetweenDate:andDate:options:">&nbsp;&nbsp;&nbsp;&nbsp;+ daysBetweenDate:andDate:options:</option>
 	
 	
 	
@@ -78,11 +78,11 @@
 
 <li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/arrayOfURLsFromString:error:">arrayOfURLsFromString:error:</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateFromString:withFormat:withFormatter:">dateFromString:withFormat:withFormatter:</a></span></li>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/availableFilesForFileType:">availableFilesForFileType:</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateWithISO8601String:withFormatter:">dateWithISO8601String:withFormatter:</a></span></li>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/splitString:maxCharacters:">splitString:maxCharacters:</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/daysBetweenDate:andDate:options:">daysBetweenDate:andDate:options:</a></span></li>
 	
 </ul></li>
 
@@ -93,7 +93,7 @@
 		</nav>
 		<article>
 			<div id="contents" class="isShowingTOC" role="main">
-				<a title="NSArray(Jukaela) Category Reference" name="top"></a>
+				<a title="NSDate(Jukaela) Category Reference" name="top"></a>
 				<div class="main-navigation navigation-top">
 					<ul>
 	<li><a href="../index.html">Index</a></li>
@@ -102,7 +102,7 @@
 				</div>
 				<div id="header">
 					<div class="section-header">
-						<h1 class="title title-header">NSArray(Jukaela) Category Reference</h1>
+						<h1 class="title title-header">NSDate(Jukaela) Category Reference</h1>
 					</div>		
 				</div>
 				<div id="container">	
@@ -110,7 +110,7 @@
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<td class="specification-title">Declared in</td>
-	<td class="specification-value">NSArray+Jukaela.h</td>
+	<td class="specification-value">NSDate+Jukaela.h</td>
 </tr>
 						</tbody></table></div>
 					
@@ -120,7 +120,7 @@
 					<div class="section section-overview">
 						<a title="Overview" name="overview"></a>
 						<h2 class="subtitle subtitle-overview">Overview</h2>
-						<p>NSArray helper methods that may be useful in social networking applications.</p>
+						<p>A useful set of helper methods for NSDate.</p>
 					</div>
 					
 					
@@ -138,22 +138,22 @@
 						<ul class="task-list">
 							<li>
 	<span class="tooltip">
-		<code><a href="#//api/name/arrayOfURLsFromString:error:">+&nbsp;arrayOfURLsFromString:error:</a></code>
-		<span class="tooltip"><p>Creates and &lsquo;NSArray&rsquo; of URLs as &lsquo;NSString&rsquo;s.</p></span>
+		<code><a href="#//api/name/dateWithISO8601String:withFormatter:">+&nbsp;dateWithISO8601String:withFormatter:</a></code>
+		<span class="tooltip"><p>Convert an ISO8601 &lsquo;NSString&rsquo; to &lsquo;NSDate&rsquo;</p></span>
 	</span>
 	
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/splitString:maxCharacters:">+&nbsp;splitString:maxCharacters:</a></code>
-		<span class="tooltip"><p>Splits a given &lsquo;NSString&rsquo; into multiple parts, no greater in length than &lsquo;maxLength&rsquo;</p></span>
+		<code><a href="#//api/name/dateFromString:withFormat:withFormatter:">+&nbsp;dateFromString:withFormat:withFormatter:</a></code>
+		<span class="tooltip"><p>Converts the specified &lsquo;NSString&rsquo; to an &lsquo;NSDate&rsquo; with the specified date format and formatter</p></span>
 	</span>
 	
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/availableFilesForFileType:">+&nbsp;availableFilesForFileType:</a></code>
-		<span class="tooltip"><p>Gets a list of available files in the Documents directory</p></span>
+		<code><a href="#//api/name/daysBetweenDate:andDate:options:">+&nbsp;daysBetweenDate:andDate:options:</a></code>
+		<span class="tooltip"><p>Number of days between two &lsquo;NSDate&rsquo;s</p></span>
 	</span>
 	
 	
@@ -173,18 +173,18 @@
 						<h2 class="subtitle subtitle-methods">Class Methods</h2>
 						
 						<div class="section-method">
-	<a name="//api/name/arrayOfURLsFromString:error:" title="arrayOfURLsFromString:error:"></a>
-	<h3 class="subsubtitle method-title">arrayOfURLsFromString:error:</h3>
+	<a name="//api/name/dateFromString:withFormat:withFormatter:" title="dateFromString:withFormat:withFormatter:"></a>
+	<h3 class="subsubtitle method-title">dateFromString:withFormat:withFormatter:</h3>
 	
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Creates and &lsquo;NSArray&rsquo; of URLs as &lsquo;NSString&rsquo;s.</p>
+		<p>Converts the specified &lsquo;NSString&rsquo; to an &lsquo;NSDate&rsquo; with the specified date format and formatter</p>
 	</div>		
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (NSArray *)arrayOfURLsFromString:(NSString *)<em>stringToCheck</em> error:(NSError *)<em>error</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (NSDate *)dateFromString:(NSString *)<em>dateString</em> withFormat:(NSString *)<em>dateFormat</em> withFormatter:(NSDateFormatter *)<em>formatter</em></code></div>
 
     
 	
@@ -192,13 +192,18 @@
 		<h4 class="method-subtitle parameter-title">Parameters</h4>
 		
 		<dl class="argument-def parameter-def">
-			<dt><em>stringToCheck</em></dt>
-			<dd><p>The &lsquo;NSString&rsquo; to check for URLs</p></dd>
+			<dt><em>dateString</em></dt>
+			<dd><p>The string to convert</p></dd>
 		</dl>
 		
 		<dl class="argument-def parameter-def">
-			<dt><em>error</em></dt>
-			<dd><p>&lsquo;NSError&rsquo; that will be populated by any errors.</p></dd>
+			<dt><em>dateFormat</em></dt>
+			<dd><p>The format of the date, in standard format</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>formatter</em></dt>
+			<dd><p>The &lsquo;NSDateFormatter&rsquo; to use</p></dd>
 		</dl>
 		
 	</div>
@@ -207,7 +212,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>&lsquo;NSArray&rsquo; of URLs as &lsquo;NSString&rsquo;s</p>
+		<p>&lsquo;NSDate&rsquo; that has been formatted</p>
 	</div>
 	
 	
@@ -216,9 +221,10 @@
 	
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
-		<p>Creates and &lsquo;NSArray&rsquo; of URLs as &lsquo;NSString&rsquo;s.</p>
+		<p>Converts the specified &lsquo;NSString&rsquo; to an &lsquo;NSDate&rsquo; with the specified date format and formatter</p>
 
-<p>This method is good for checking a given &lsquo;NSString&rsquo; for URLs.  This is quite useful in social networking circumstances.</p>
+<p>The user of this class method must supply their own &lsquo;NSDateFormatter&rsquo;.  &lsquo;NSDateFormatter&rsquo;s are expensive to create, so it&rsquo;s recommended to create your own
+and keep a reference to it.</p>
 	</div>
 	
 	
@@ -229,25 +235,25 @@
 	
 	<div class="method-subsection declared-in-section">
 		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">NSArray+Jukaela.h</code><br />
+		<code class="declared-in-ref">NSDate+Jukaela.h</code><br />
 	</div>				
 	
 	
 </div>
 						
 						<div class="section-method">
-	<a name="//api/name/availableFilesForFileType:" title="availableFilesForFileType:"></a>
-	<h3 class="subsubtitle method-title">availableFilesForFileType:</h3>
+	<a name="//api/name/dateWithISO8601String:withFormatter:" title="dateWithISO8601String:withFormatter:"></a>
+	<h3 class="subsubtitle method-title">dateWithISO8601String:withFormatter:</h3>
 	
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Gets a list of available files in the Documents directory</p>
+		<p>Convert an ISO8601 &lsquo;NSString&rsquo; to &lsquo;NSDate&rsquo;</p>
 	</div>		
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (NSArray *)availableFilesForFileType:(NSArray *)<em>fileTypes</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (NSDate *)dateWithISO8601String:(NSString *)<em>dateString</em> withFormatter:(NSDateFormatter *)<em>formatter</em></code></div>
 
     
 	
@@ -255,8 +261,13 @@
 		<h4 class="method-subtitle parameter-title">Parameters</h4>
 		
 		<dl class="argument-def parameter-def">
-			<dt><em>fileTypes</em></dt>
-			<dd><p>An &lsquo;NSArray&rsquo; of &lsquo;NSString&rsquo;s of fileTypes to return.  This should be formatted, for example, &ldquo;pkg&rdquo; &ndash; &ldquo;zip&rdquo;</p></dd>
+			<dt><em>dateString</em></dt>
+			<dd><p>The string to convert</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>formatter</em></dt>
+			<dd><p>The &lsquo;NSDateFormatter&rsquo; to use</p></dd>
 		</dl>
 		
 	</div>
@@ -265,7 +276,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An &lsquo;NSArray&rsquo; of file names as &lsquo;NSString&rsquo;s</p>
+		<p>&lsquo;NSDate&rsquo; that had been formatted</p>
 	</div>
 	
 	
@@ -274,9 +285,10 @@
 	
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
-		<p>Gets a list of available files in the Documents directory</p>
+		<p>Convert an ISO8601 &lsquo;NSString&rsquo; to &lsquo;NSDate&rsquo;</p>
 
-<p>On iOS, this method will get a list of the app&rsquo;s Documents folder.  On the Macintosh, this method will show a list of files, for the passed fileTypes for the user&rsquo;s Documents folder.</p>
+<p>The user of this class method must supply their own &lsquo;NSDateFormatter&rsquo;.  &lsquo;NSDateFormatter&rsquo;s are expensive to create, so it&rsquo;s recommended to create your own
+and keep a reference to it.</p>
 	</div>
 	
 	
@@ -287,25 +299,25 @@
 	
 	<div class="method-subsection declared-in-section">
 		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">NSArray+Jukaela.h</code><br />
+		<code class="declared-in-ref">NSDate+Jukaela.h</code><br />
 	</div>				
 	
 	
 </div>
 						
 						<div class="section-method">
-	<a name="//api/name/splitString:maxCharacters:" title="splitString:maxCharacters:"></a>
-	<h3 class="subsubtitle method-title">splitString:maxCharacters:</h3>
+	<a name="//api/name/daysBetweenDate:andDate:options:" title="daysBetweenDate:andDate:options:"></a>
+	<h3 class="subsubtitle method-title">daysBetweenDate:andDate:options:</h3>
 	
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Splits a given &lsquo;NSString&rsquo; into multiple parts, no greater in length than &lsquo;maxLength&rsquo;</p>
+		<p>Number of days between two &lsquo;NSDate&rsquo;s</p>
 	</div>		
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (NSArray *)splitString:(NSString *)<em>stringToSplit</em> maxCharacters:(NSInteger)<em>maxLength</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (int)daysBetweenDate:(NSDate *)<em>dateOne</em> andDate:(NSDate *)<em>dateTwo</em> options:(NSCalendarOptions)<em>options</em></code></div>
 
     
 	
@@ -313,13 +325,18 @@
 		<h4 class="method-subtitle parameter-title">Parameters</h4>
 		
 		<dl class="argument-def parameter-def">
-			<dt><em>stringToSplit</em></dt>
-			<dd><p>The &lsquo;NSString&rsquo; that needs to be split into parts</p></dd>
+			<dt><em>dateOne</em></dt>
+			<dd><p>First date</p></dd>
 		</dl>
 		
 		<dl class="argument-def parameter-def">
-			<dt><em>maxLength</em></dt>
-			<dd><p>&lsquo;NSInteger&rsquo; that specifies that maximum length that each &lsquo;NSString&rsquo; the returned &lsquo;NSArray&rsquo; can be</p></dd>
+			<dt><em>dateTwo</em></dt>
+			<dd><p>Second date</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>options</em></dt>
+			<dd><p>&lsquo;NSCalendarOptions&rsquo; to specify for the calculation</p></dd>
 		</dl>
 		
 	</div>
@@ -328,7 +345,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>&lsquo;NSArray&rsquo; of &lsquo;NSString&rsquo;s that are no greater than 'maxLength&rsquo;</p>
+		<p>Number of days in between the two dates, as an int</p>
 	</div>
 	
 	
@@ -337,9 +354,7 @@
 	
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
-		<p>Splits a given &lsquo;NSString&rsquo; into multiple parts, no greater in length than &lsquo;maxLength&rsquo;</p>
-
-<p>This method is useful in circumstances where a long string, such as one being posted to a social network that restricts character count, needs to be split into multiple strings.</p>
+		<p>Number of days between two &lsquo;NSDate&rsquo;s</p>
 	</div>
 	
 	
@@ -350,7 +365,7 @@
 	
 	<div class="method-subsection declared-in-section">
 		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">NSArray+Jukaela.h</code><br />
+		<code class="declared-in-ref">NSDate+Jukaela.h</code><br />
 	</div>				
 	
 	

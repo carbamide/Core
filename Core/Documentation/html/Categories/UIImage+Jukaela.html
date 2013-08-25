@@ -42,6 +42,10 @@
 	
 	<option value="class_methods">Class Methods</option>
 	
+	<option value="//api/name/getImageFromColor:">&nbsp;&nbsp;&nbsp;&nbsp;+ getImageFromColor:</option>
+	
+	<option value="//api/name/normalize:">&nbsp;&nbsp;&nbsp;&nbsp;+ normalize:</option>
+	
 	<option value="//api/name/saveImage:withFileName:">&nbsp;&nbsp;&nbsp;&nbsp;+ saveImage:withFileName:</option>
 	
 	
@@ -110,6 +114,10 @@
 
 
 <li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getImageFromColor:">getImageFromColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/normalize:">normalize:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveImage:withFileName:">saveImage:withFileName:</a></span></li>
 	
@@ -205,6 +213,20 @@
 	<span class="tooltip">
 		<code><a href="#//api/name/saveImage:withFileName:">+&nbsp;saveImage:withFileName:</a></code>
 		<span class="tooltip"><p>Saves UIImage to users Documents folder</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/normalize:">+&nbsp;normalize:</a></code>
+		<span class="tooltip"><p>Normalize UIImage for use in simulator</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getImageFromColor:">+&nbsp;getImageFromColor:</a></code>
+		<span class="tooltip"><p>Create &lsquo;UIImage&rsquo; of the specified &lsquo;UIColor&rsquo;</p></span>
 	</span>
 	
 	
@@ -342,6 +364,120 @@
 					<div class="section section-methods">
 						<a title="Class Methods" name="class_methods"></a>
 						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/getImageFromColor:" title="getImageFromColor:"></a>
+	<h3 class="subsubtitle method-title">getImageFromColor:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Create &lsquo;UIImage&rsquo; of the specified &lsquo;UIColor&rsquo;</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (UIImage *)getImageFromColor:(UIColor *)<em>color</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>color</em></dt>
+			<dd><p>The &lsquo;UIColor&rsquo; to create the &lsquo;UIImage&rsquo; from</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>&lsquo;UIImage&rsquo; that is the specified &lsquo;UIColor&rsquo;</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Create &lsquo;UIImage&rsquo; of the specified &lsquo;UIColor&rsquo;</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UIImage+Jukaela.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/normalize:" title="normalize:"></a>
+	<h3 class="subsubtitle method-title">normalize:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Normalize UIImage for use in simulator</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (UIImage *)normalize:(UIImage *)<em>theImage</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theImage</em></dt>
+			<dd><p>The &lsquo;UIImage&rsquo; to normalize</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>&lsquo;UIImage&rsquo; that has been normalized</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Normalize UIImage for use in simulator</p>
+
+<p>Use of this call should be ifdefed to only be called in the iOS Simulator</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UIImage+Jukaela.h</code><br />
+	</div>				
+	
+	
+</div>
 						
 						<div class="section-method">
 	<a name="//api/name/saveImage:withFileName:" title="saveImage:withFileName:"></a>
@@ -1339,7 +1475,7 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2013 Jukaela Enterprises. All rights reserved. (Last updated: 2013-08-22)</span><br />
+						<p><span class="copyright">&copy; 2013 Jukaela Enterprises. All rights reserved. (Last updated: 2013-08-24)</span><br />
 						
 						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
 						

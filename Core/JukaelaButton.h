@@ -26,11 +26,24 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ An 'UIButton' subclass that allows you to specify a high color and low color.  A gradiented button is much from those colors.
+ */
+
 @interface JukaelaButton : UIButton
 
+///---------------------------------------
+/// @name Properties
+///---------------------------------------
+
+/** 
+ The top color of the 'JukaelaButton'
+ */
 @property (nonatomic, strong) UIColor *highColor;
+
+/**
+ The bottom color of the 'JukaelaButton'
+ */
 @property (nonatomic, strong) UIColor *lowColor;
-@property (nonatomic, strong) CALayer *wrapperLayer;
-@property (nonatomic, strong) CAGradientLayer *gradientLayer;
 
 @end

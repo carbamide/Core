@@ -27,6 +27,10 @@
 #import "JukaelaButton.h"
 
 @interface JukaelaButton ()
+
+@property (nonatomic, strong) CALayer *wrapperLayer;
+@property (nonatomic, strong) CAGradientLayer *gradientLayer;
+
 - (UIColor *)darkerColorForColor:(UIColor *)color;
 @end
 

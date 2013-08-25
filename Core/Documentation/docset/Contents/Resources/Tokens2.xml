@@ -1,77 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Categories/NSDate+Jukaela.html">
+	<File path="Classes/JukaelaButton.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cat/NSDate(Jukaela)</TokenIdentifier>
-			<Abstract type="html">A category on NSNull that tries to map all common calls that could occur when accidently calling NSNull</Abstract>
-			<DeclaredIn>NSDate+Jukaela.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/JukaelaButton</TokenIdentifier>
+			<Abstract type="html">An &apos;UIButton&apos; subclass that allows you to specify a high color and low color.  A gradiented button is much from those colors.</Abstract>
+			<DeclaredIn>JukaelaButton.h</DeclaredIn>
 			
 			<NodeRef refid="2"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(Jukaela)/dateWithISO8601String:withFormatter:</TokenIdentifier>
-			<Abstract type="html">Convert an ISO8601 &apos;NSString&apos; to &apos;NSDate&apos;</Abstract>
-			<DeclaredIn>NSDate+Jukaela.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/JukaelaButton/setHighColor:</TokenIdentifier>
+			<Abstract type="html">The top color of the &apos;JukaelaButton&apos;</Abstract>
+			<DeclaredIn>JukaelaButton.h</DeclaredIn>			
 			
-			<Declaration>+ (NSDate *)dateWithISO8601String:(NSString *)dateString withFormatter:(NSDateFormatter *)formatter</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>dateString</Name>
-					<Abstract type="html">The string to convert</Abstract>
-				</Parameter><Parameter>
-					<Name>formatter</Name>
-					<Abstract type="html">The &apos;NSDateFormatter&apos; to use</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;NSDate&apos; that had been formatted</Abstract></ReturnValue>
-			<Anchor>//api/name/dateWithISO8601String:withFormatter:</Anchor>
+			<Declaration>@property (nonatomic, strong) UIColor *highColor</Declaration>
+			
+			
+			<Anchor>//api/name/highColor</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(Jukaela)/dateFromString:withFormat:withFormatter:</TokenIdentifier>
-			<Abstract type="html">Converts the specified &apos;NSString&apos; to an &apos;NSDate&apos; with the specified date format and formatter</Abstract>
-			<DeclaredIn>NSDate+Jukaela.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/JukaelaButton/highColor</TokenIdentifier>
+			<Abstract type="html">The top color of the &apos;JukaelaButton&apos;</Abstract>
+			<DeclaredIn>JukaelaButton.h</DeclaredIn>			
 			
-			<Declaration>+ (NSDate *)dateFromString:(NSString *)dateString withFormat:(NSString *)dateFormat withFormatter:(NSDateFormatter *)formatter</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>dateString</Name>
-					<Abstract type="html">The string to convert</Abstract>
-				</Parameter><Parameter>
-					<Name>dateFormat</Name>
-					<Abstract type="html">The format of the date, in standard format</Abstract>
-				</Parameter><Parameter>
-					<Name>formatter</Name>
-					<Abstract type="html">The &apos;NSDateFormatter&apos; to use</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;NSDate&apos; that has been formatted</Abstract></ReturnValue>
-			<Anchor>//api/name/dateFromString:withFormat:withFormatter:</Anchor>
+			<Declaration>@property (nonatomic, strong) UIColor *highColor</Declaration>
+			
+			
+			<Anchor>//api/name/highColor</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(Jukaela)/daysBetweenDate:andDate:options:</TokenIdentifier>
-			<Abstract type="html">Number of days between two &apos;NSDate&apos;s</Abstract>
-			<DeclaredIn>NSDate+Jukaela.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/JukaelaButton/setLowColor:</TokenIdentifier>
+			<Abstract type="html">The bottom color of the &apos;JukaelaButton&apos;</Abstract>
+			<DeclaredIn>JukaelaButton.h</DeclaredIn>			
 			
-			<Declaration>+ (int)daysBetweenDate:(NSDate *)dateOne andDate:(NSDate *)dateTwo options:(NSCalendarOptions)options</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>dateOne</Name>
-					<Abstract type="html">First date</Abstract>
-				</Parameter><Parameter>
-					<Name>dateTwo</Name>
-					<Abstract type="html">Second date</Abstract>
-				</Parameter><Parameter>
-					<Name>options</Name>
-					<Abstract type="html">&apos;NSCalendarOptions&apos; to specify for the calculation</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">Number of days in between the two dates, as an int</Abstract></ReturnValue>
-			<Anchor>//api/name/daysBetweenDate:andDate:options:</Anchor>
+			<Declaration>@property (nonatomic, strong) UIColor *lowColor</Declaration>
+			
+			
+			<Anchor>//api/name/lowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JukaelaButton/lowColor</TokenIdentifier>
+			<Abstract type="html">The bottom color of the &apos;JukaelaButton&apos;</Abstract>
+			<DeclaredIn>JukaelaButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *lowColor</Declaration>
+			
+			
+			<Anchor>//api/name/lowColor</Anchor>
 		</Token>
 		
 	</File>

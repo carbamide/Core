@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSNull+DontCrash.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSNull(DontCrash)</TokenIdentifier>
+			<Abstract type="html">A category on NSNull that tries to map all common calls that could occur when accidently calling NSNull.</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/setWarnsOnNullAccess:</TokenIdentifier>
+			<Abstract type="html">Causes NSNull to warn when a null value is being accessed</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>+ (void)setWarnsOnNullAccess:(BOOL)warnsOnNullAccess</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>warnsOnNullAccess</Name>
+					<Abstract type="html">Would you like NSNull to warn you when a null value has been accessed?</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setWarnsOnNullAccess:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/boolValue</TokenIdentifier>
+			<Abstract type="html">Non-null boolValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)boolValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null boolValue</Abstract></ReturnValue>
+			<Anchor>//api/name/boolValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/charValue</TokenIdentifier>
+			<Abstract type="html">Non-null charValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (char)charValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null boolValue</Abstract></ReturnValue>
+			<Anchor>//api/name/charValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/decimalValue</TokenIdentifier>
+			<Abstract type="html">Non-null decimalValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (NSDecimal)decimalValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null decimalValue</Abstract></ReturnValue>
+			<Anchor>//api/name/decimalValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/doubleValue</TokenIdentifier>
+			<Abstract type="html">Non-null doubleValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (double)doubleValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null doubleValue</Abstract></ReturnValue>
+			<Anchor>//api/name/doubleValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/floatValue</TokenIdentifier>
+			<Abstract type="html">Non-null floatValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (float)floatValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null floatValue</Abstract></ReturnValue>
+			<Anchor>//api/name/floatValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/intValue</TokenIdentifier>
+			<Abstract type="html">Non-null intValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (int)intValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null intValue</Abstract></ReturnValue>
+			<Anchor>//api/name/intValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/integerValue</TokenIdentifier>
+			<Abstract type="html">Non-null integerValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (NSInteger)integerValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null integerValue</Abstract></ReturnValue>
+			<Anchor>//api/name/integerValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/longLongValue</TokenIdentifier>
+			<Abstract type="html">Non-null longLongValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (long long)longLongValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null longLongValue</Abstract></ReturnValue>
+			<Anchor>//api/name/longLongValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/longValue</TokenIdentifier>
+			<Abstract type="html">Non-null longValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (long)longValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null longValue</Abstract></ReturnValue>
+			<Anchor>//api/name/longValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/shortValue</TokenIdentifier>
+			<Abstract type="html">Non-null shortValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (short)shortValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null shortValue</Abstract></ReturnValue>
+			<Anchor>//api/name/shortValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/unsignedCharValue</TokenIdentifier>
+			<Abstract type="html">Non-null unsignedCharValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (unsigned char)unsignedCharValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null unsignedCharValue</Abstract></ReturnValue>
+			<Anchor>//api/name/unsignedCharValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/unsignedIntegerValue</TokenIdentifier>
+			<Abstract type="html">Non-null unsignedIntegerValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (NSUInteger)unsignedIntegerValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null unsignedIntegerValue</Abstract></ReturnValue>
+			<Anchor>//api/name/unsignedIntegerValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/unsignedIntValue</TokenIdentifier>
+			<Abstract type="html">Non-null unsignedIntValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (unsigned int)unsignedIntValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null unsignedIntValue</Abstract></ReturnValue>
+			<Anchor>//api/name/unsignedIntValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/unsignedLongLongValue</TokenIdentifier>
+			<Abstract type="html">Non-null unsignedLongLongValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (unsigned long long)unsignedLongLongValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null unsignedLongLongValue</Abstract></ReturnValue>
+			<Anchor>//api/name/unsignedLongLongValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/unsignedLongValue</TokenIdentifier>
+			<Abstract type="html">Non-null unsignedLongValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (unsigned long)unsignedLongValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null unsignedLongValue</Abstract></ReturnValue>
+			<Anchor>//api/name/unsignedLongValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/unsignedShortValue</TokenIdentifier>
+			<Abstract type="html">Non-null unsignedShortValue</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (unsigned short)unsignedShortValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null unsignedShortValue</Abstract></ReturnValue>
+			<Anchor>//api/name/unsignedShortValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/valueForKey:</TokenIdentifier>
+			<Abstract type="html">Non-null valueForKey</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (id)valueForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">Key to access</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Non-null valueForKey</Abstract></ReturnValue>
+			<Anchor>//api/name/valueForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/objectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Non-null objectAtIndex</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (id)objectAtIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Index of object to access</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Non-null objectAtIndex</Abstract></ReturnValue>
+			<Anchor>//api/name/objectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/objectAtIndexedSubscript:</TokenIdentifier>
+			<Abstract type="html">Non-null objectAtIndexedSubscript</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (id)objectAtIndexedSubscript:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Index of object to access</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Non-null objectAtIndexedSubscript</Abstract></ReturnValue>
+			<Anchor>//api/name/objectAtIndexedSubscript:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/count</TokenIdentifier>
+			<Abstract type="html">Non-null count</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (NSUInteger)count</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null count</Abstract></ReturnValue>
+			<Anchor>//api/name/count</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/objectForKey:</TokenIdentifier>
+			<Abstract type="html">Non-null objectForKey</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (id)objectForKey:(id)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">Key to access</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Non-null objectForKey</Abstract></ReturnValue>
+			<Anchor>//api/name/objectForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/objectForKeyedSubscript:</TokenIdentifier>
+			<Abstract type="html">Non-null objectForKeyedSubscript</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (id)objectForKeyedSubscript:(id)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">Key to access</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Non-null objectForKeyedSubscript</Abstract></ReturnValue>
+			<Anchor>//api/name/objectForKeyedSubscript:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNull(DontCrash)/length</TokenIdentifier>
+			<Abstract type="html">Non-null length</Abstract>
+			<DeclaredIn>NSNull+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (NSUInteger)length</Declaration>
+			
+			<ReturnValue><Abstract type="html">Non-null length</Abstract></ReturnValue>
+			<Anchor>//api/name/length</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

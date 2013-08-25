@@ -55,4 +55,13 @@
  */
 +(NSArray *)splitString:(NSString *)stringToSplit maxCharacters:(NSInteger)maxLength;
 
+/** Gets a list of available files in the Documents directory
+ 
+ On iOS, this method will get a list of the app's Documents folder.  On the Macintosh, this method will show a list of files, for the passed fileTypes for the user's Documents folder.
+ 
+ @param fileTypes An 'NSArray' of 'NSString's of fileTypes to return.  This should be formatted, for example, "pkg" - "zip"
+ @return An 'NSArray' of file names as 'NSString's
+ */
++(NSArray *)availableFilesForFileType:(NSArray *)fileTypes;
+
 @end

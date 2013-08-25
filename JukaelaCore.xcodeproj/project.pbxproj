@@ -26,9 +26,6 @@
 		297EACF717C813C60026EF83 /* JukaelaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 297EACF517C813C60026EF83 /* JukaelaButton.m */; };
 		2999C49917C6EBAB00CC4495 /* NSNull+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 2999C49717C6EBAB00CC4495 /* NSNull+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2999C49A17C6EBAB00CC4495 /* NSNull+Jukaela.m in Sources */ = {isa = PBXBuildFile; fileRef = 2999C49817C6EBAB00CC4495 /* NSNull+Jukaela.m */; };
-		29AC593D17C657AE00B8DE73 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AC593C17C657AE00B8DE73 /* CoreFoundation.framework */; };
-		29AC594B17C658BC00B8DE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AC594A17C658BC00B8DE73 /* Foundation.framework */; };
-		29AC594D17C658C000B8DE73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AC594C17C658C000B8DE73 /* UIKit.framework */; };
 		29AC596217C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC595B17C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.m */; };
 		29AC596317C65CF800B8DE73 /* NSString+Jukaela.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC595D17C65CF800B8DE73 /* NSString+Jukaela.m */; };
 		29AC596417C65CF800B8DE73 /* NSArray+Jukaela.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC595F17C65CF800B8DE73 /* NSArray+Jukaela.m */; };
@@ -40,7 +37,10 @@
 		29AC598617C65DE500B8DE73 /* NSString+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AC595C17C65CF800B8DE73 /* NSString+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29AC598717C65DE700B8DE73 /* NSArray+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AC595E17C65CF800B8DE73 /* NSArray+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29AC598817C65DE900B8DE73 /* UIImage+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AC596017C65CF800B8DE73 /* UIImage+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29CDD99017C6EE9D0047567B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CDD98F17C6EE9D0047567B /* Accelerate.framework */; };
+		29B613AF17C9A01000F705C3 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B613AD17C9A01000F705C3 /* Base64.h */; };
+		29B613B017C9A01000F705C3 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B613AE17C9A01000F705C3 /* Base64.m */; };
+		29B613B317C9A3B800F705C3 /* JukaelaTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B613B117C9A3B800F705C3 /* JukaelaTextView.h */; };
+		29B613B417C9A3B800F705C3 /* JukaelaTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B613B217C9A3B800F705C3 /* JukaelaTextView.m */; };
 		29CDD99317C6EF010047567B /* NSDate+Jukaela.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CDD99117C6EF010047567B /* NSDate+Jukaela.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29CDD99417C6EF010047567B /* NSDate+Jukaela.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CDD99217C6EF010047567B /* NSDate+Jukaela.m */; };
 /* End PBXBuildFile section */
@@ -84,6 +84,10 @@
 		29AC597517C65D2800B8DE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29AC597717C65D2800B8DE73 /* Core_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core_Tests.m; sourceTree = "<group>"; };
 		29AC597917C65D2800B8DE73 /* JukaelaCore Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JukaelaCore Tests-Prefix.pch"; sourceTree = "<group>"; };
+		29B613AD17C9A01000F705C3 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		29B613AE17C9A01000F705C3 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		29B613B117C9A3B800F705C3 /* JukaelaTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JukaelaTextView.h; sourceTree = "<group>"; };
+		29B613B217C9A3B800F705C3 /* JukaelaTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JukaelaTextView.m; sourceTree = "<group>"; };
 		29CDD98F17C6EE9D0047567B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		29CDD99117C6EF010047567B /* NSDate+Jukaela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Jukaela.h"; sourceTree = "<group>"; };
 		29CDD99217C6EF010047567B /* NSDate+Jukaela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Jukaela.m"; sourceTree = "<group>"; };
@@ -94,10 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29CDD99017C6EE9D0047567B /* Accelerate.framework in Frameworks */,
-				29AC594D17C658C000B8DE73 /* UIKit.framework in Frameworks */,
-				29AC594B17C658BC00B8DE73 /* Foundation.framework in Frameworks */,
-				29AC593D17C657AE00B8DE73 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,8 +115,12 @@
 		297C93FB17C8146D005289EF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				29B613AD17C9A01000F705C3 /* Base64.h */,
+				29B613AE17C9A01000F705C3 /* Base64.m */,
 				297EACF417C813C60026EF83 /* JukaelaButton.h */,
 				297EACF517C813C60026EF83 /* JukaelaButton.m */,
+				29B613B117C9A3B800F705C3 /* JukaelaTextView.h */,
+				29B613B217C9A3B800F705C3 /* JukaelaTextView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -220,6 +224,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B613B317C9A3B800F705C3 /* JukaelaTextView.h in Headers */,
+				29B613AF17C9A01000F705C3 /* Base64.h in Headers */,
 				297EACF617C813C60026EF83 /* JukaelaButton.h in Headers */,
 				29AC598517C65DE300B8DE73 /* NSMutableURLRequest+Jukaela.h in Headers */,
 				29AC598817C65DE900B8DE73 /* UIImage+Jukaela.h in Headers */,
@@ -342,6 +348,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B613B017C9A01000F705C3 /* Base64.m in Sources */,
+				29B613B417C9A3B800F705C3 /* JukaelaTextView.m in Sources */,
 				29AC596217C65CF800B8DE73 /* NSMutableURLRequest+Jukaela.m in Sources */,
 				297EACF717C813C60026EF83 /* JukaelaButton.m in Sources */,
 				29AC596517C65CF800B8DE73 /* UIImage+Jukaela.m in Sources */,
