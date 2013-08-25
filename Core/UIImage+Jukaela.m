@@ -54,15 +54,12 @@
 {
     CGColorSpaceRef genericColorSpace = CGColorSpaceCreateDeviceRGB();
     
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wenum-conversion"
     CGContextRef thumbBitmapCtxt = CGBitmapContextCreate(NULL,
                                                          theImage.size.width,
                                                          theImage.size.height,
                                                          8, (4 * theImage.size.width),
                                                          genericColorSpace,
-                                                         kCGImageAlphaPremultipliedFirst);
-#pragma clang diagnotstic pop
+                                                         0);
     
     CGColorSpaceRelease(genericColorSpace);
     CGContextSetInterpolationQuality(thumbBitmapCtxt, kCGInterpolationDefault);
@@ -166,35 +163,6 @@
     CGImageRelease(transparentBorderImageRef);
     
     return transparentBorderImage;
-}
-
-#pragma mark -
-#pragma mark Private helper methods
-
--(CGImageRef)newBorderMask:(NSUInteger)borderSize size:(CGSize)size
-{
-    CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceGray();
-    
-    CGContextRef maskContext = CGBitmapContextCreate(NULL,
-                                                     size.width,
-                                                     size.height,
-                                                     8,
-                                                     0,
-                                                     colorSpace,
-                                                     kCGBitmapByteOrderDefault | kCGImageAlphaNone);
-    
-    CGContextSetFillColorWithColor(maskContext, [[UIColor blackColor] CGColor]);
-    CGContextFillRect(maskContext, CGRectMake(0, 0, size.width, size.height));
-    
-    CGContextSetFillColorWithColor(maskContext, [[UIColor whiteColor] CGColor]);
-    CGContextFillRect(maskContext, CGRectMake(borderSize, borderSize, size.width - borderSize * 2, size.height - borderSize * 2));
-    
-    CGImageRef maskImageRef = CGBitmapContextCreateImage(maskContext);
-    
-    CGContextRelease(maskContext);
-    CGColorSpaceRelease(colorSpace);
-    
-    return maskImageRef;
 }
 
 -(UIImage *)croppedImage:(CGRect)bounds
@@ -719,5 +687,31 @@
     CGImageRelease(newImageRef);
     
     return newImage;
+}
+
+-(CGImageRef)newBorderMask:(NSUInteger)borderSize size:(CGSize)size
+{
+    CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceGray();
+    
+    CGContextRef maskContext = CGBitmapContextCreate(NULL,
+                                                     size.width,
+                                                     size.height,
+                                                     8,
+                                                     0,
+                                                     colorSpace,
+                                                     kCGBitmapByteOrderDefault | kCGImageAlphaNone);
+    
+    CGContextSetFillColorWithColor(maskContext, [[UIColor blackColor] CGColor]);
+    CGContextFillRect(maskContext, CGRectMake(0, 0, size.width, size.height));
+    
+    CGContextSetFillColorWithColor(maskContext, [[UIColor whiteColor] CGColor]);
+    CGContextFillRect(maskContext, CGRectMake(borderSize, borderSize, size.width - borderSize * 2, size.height - borderSize * 2));
+    
+    CGImageRef maskImageRef = CGBitmapContextCreateImage(maskContext);
+    
+    CGContextRelease(maskContext);
+    CGColorSpaceRelease(colorSpace);
+    
+    return maskImageRef;
 }
 @end
