@@ -14,6 +14,8 @@
 #import "Base64.h"
 #import "NSDate+Jukaela.h"
 #import "NSNull+Jukaela.h"
+#import "NSUserDefaults+Jukeala.h"
+#import "UIColor+Jukaela.h"
 
 @interface JukaelaCore_Tests : XCTestCase
 
@@ -72,6 +74,13 @@
     NSString *testString = @"\\";
     
     XCTAssertNotNil(testString, @"The returns NSString is nil");
+}
+
+-(void)testEmptyNSStringIsNilOrEmptyIsCorrect
+{
+    NSString *testString = @"";
+    
+    XCTAssert([testString isNilOrEmpty], @"The NSString is nil or empty");
 }
 
 -(void)testNSStringContainsNotNil
@@ -356,4 +365,38 @@
     
     XCTAssert(value == 0, @"The length is incorrect");
 }
+
+#pragma mark -
+#pragma mark NSUserDefaults Tests
+
+-(void)testNSUserDefaultsSaveObjectForKey
+{
+    [NSUserDefaults saveObject:[NSNumber numberWithBool:YES] forKey:@"test"];
+    
+    XCTAssert([[NSUserDefaults standardUserDefaults] boolForKey:@"test"] == YES, @"The NSNumber object was not saved correctly.");
+}
+
+-(void)testNSUserDefaultsDeleteObjectForKey
+{
+    [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:YES] forKey:@"test"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    [NSUserDefaults deleteObjectForKey:@"test"];
+    
+    NSNumber *testNumber = [[NSUserDefaults standardUserDefaults] objectForKey:@"test"];
+    
+    XCTAssertNil(testNumber, @"The returned number should be nil");
+}
+
+
+#pragma mark -
+#pragma mark UIColor Tests
+
+-(void)testUIColorColorWithHexNotNil
+{
+    UIColor *testColor = [UIColor colorWithHex:0xdeadbeef];
+    
+    XCTAssertNotNil(testColor, @"The UIColor should not be nil");
+}
+
 @end
