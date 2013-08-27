@@ -1,8 +1,8 @@
 //
-//  NSString+Jukaela.h
+//  JukaelaButton.h
 //  JukaelaCore
 //
-//  Created by Josh on 8/21/13.
+//  Created by Josh Barrow on 4/9/13.
 //  Copyright (c) 2013 Jukaela Enterprises.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,44 +24,26 @@
 //  THE SOFTWARE.
 //
 
-@import Foundation;
+#import <UIKit/UIKit.h>
 
 /**
- NSString helper methods.
+ An 'UIButton' subclass that allows you to specify a high color and low color.  A gradiented button is much from those colors.
  */
-@interface NSString (Jukaela)
+
+@interface JukaelaButton : UIButton
 
 ///---------------------------------------
-/// @name Class Methods
+/// @name Properties
 ///---------------------------------------
 
-/** The home folder for the current application on iOS, or the user's home folder on Macintosh.
- @return 'NSString' of the path of the home folder.
+/** 
+ The top color of the 'JukaelaButton'
  */
-+(NSString *)documentsPath;
+@property (nonatomic, strong) UIColor *highColor;
 
-/** The app's support folder
- @return 'NSString' of the path of the support folder.
+/**
+ The bottom color of the 'JukaelaButton'
  */
-+(NSString *)applicationSupportPath;
+@property (nonatomic, strong) UIColor *lowColor;
 
-///---------------------------------------
-/// @name Instance Methods
-///---------------------------------------
-
-/** Read string and escape any characters that might throw issues
- @return 'NSString' that has been escaped.
- */
--(NSString *)stringWithSlashEscapes;
-
-/** Is the string nil or empty?
- @return true if the 'NSString' is nil or empty, false if it is not.
- */
--(BOOL)isNilOrEmpty;
-
-/** Check to see if the string contains the string that the user passed.
- @param string The string to search the current string for
- @return 'BOOL' true if the string contains the substring.
- */
--(BOOL)contains:(NSString *)string;
 @end

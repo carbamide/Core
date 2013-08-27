@@ -33,7 +33,7 @@ NSLog(@"Attempting to access null value from \"%@\": %@", NSStringFromSelector(s
 
 @implementation NSNull (DontCrash)
 
-static BOOL warnsOnNullAccess = YES;
+static BOOL warnsOnNullAccess = NO;
 
 + (void)setWarnsOnNullAccess:(BOOL)shouldWarnOnNullAccess
 {

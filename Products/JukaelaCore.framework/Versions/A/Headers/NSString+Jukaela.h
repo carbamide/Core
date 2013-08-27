@@ -54,4 +54,14 @@
  */
 -(NSString *)stringWithSlashEscapes;
 
+/** Is the string nil or empty?
+ @return true if the 'NSString' is nil or empty, false if it is not.
+ */
+-(BOOL)isNilOrEmpty;
+
+/** Check to see if the string contains the string that the user passed.
+ @param string The string to search the current string for
+ @return 'BOOL' true if the string contains the substring.
+ */
+-(BOOL)contains:(NSString *)string;
 @end

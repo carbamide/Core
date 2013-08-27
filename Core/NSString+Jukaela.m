@@ -67,4 +67,24 @@
     return escapedString;
 }
 
+-(BOOL)isNilOrEmpty
+{
+    if (self == nil) {
+        return true;
+    }
+    
+    if ([self length] == 0) {
+        return true;
+    }
+    
+    return false;
+}
+
+-(BOOL)contains:(NSString *)string
+{
+    NSRange range = [self rangeOfString:string];
+    
+    return (range.location != NSNotFound);
+}
+
 @end

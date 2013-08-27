@@ -24,6 +24,8 @@
 //  THE SOFTWARE.
 //
 
+@import FOundation;
+@import UIKit;
 
 /**
  UIImage catagory, with all manor of neat things
@@ -78,13 +80,6 @@
  @return 'UIImage' with a transparent border
  */
 -(UIImage *)transparentBorderImage:(NSUInteger)borderSize;
-
-/** Creates 'CGImageRef' with border mask
- @param borderSize Size of the requested border
- @param size 'CGSize' of mask
- @return 'CGImageRef' with requested features
- */
--(CGImageRef)newBorderMask:(NSUInteger)borderSize size:(CGSize)size;
 
 /** Crop image to rect
  @param bounds The bounds to crop the image to
