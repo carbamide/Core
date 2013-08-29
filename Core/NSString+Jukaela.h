@@ -46,7 +46,7 @@
 +(NSString *)applicationSupportPath;
 
 /** Is the string nil or empty?
- @param The 'NSString' to check
+ @param string The 'NSString' to check
  @return true if the 'NSString' is nil or empty, false if it is not.
  */
 +(BOOL)isNilOrEmpty:(NSString *)string;

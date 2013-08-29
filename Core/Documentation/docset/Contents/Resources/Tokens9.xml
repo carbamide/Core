@@ -1,332 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Categories/UIImage+Jukaela.html">
+	<File path="Categories/NSUserDefaults+Jukeala.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cat/UIImage(Jukaela)</TokenIdentifier>
-			<Abstract type="html">UIImage catagory, with all manor of neat things</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cat/NSUserDefaults(Jukeala)</TokenIdentifier>
+			<Abstract type="html">NSUserDefaults helper methods.</Abstract>
+			<DeclaredIn>NSUserDefaults+Jukeala.h</DeclaredIn>
 			
 			<NodeRef refid="9"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/saveImage:withFileName:</TokenIdentifier>
-			<Abstract type="html">Saves UIImage to users Documents folder</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/intfm/NSUserDefaults(Jukeala)/saveObject:forKey:</TokenIdentifier>
+			<Abstract type="html">Sets and saves a given object for a given key value</Abstract>
+			<DeclaredIn>NSUserDefaults+Jukeala.h</DeclaredIn>			
 			
-			<Declaration>+ (void)saveImage:(UIImage *)image withFileName:(NSString *)filename</Declaration>
+			<Declaration>+ (void)saveObject:(id)object forKey:(NSString *)key</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>image</Name>
-					<Abstract type="html">The &apos;UIImage&apos; to save</Abstract>
+					<Name>object</Name>
+					<Abstract type="html">The object to save</Abstract>
 				</Parameter><Parameter>
-					<Name>filename</Name>
-					<Abstract type="html">&apos;NSString&apos; of what to name the file</Abstract>
+					<Name>key</Name>
+					<Abstract type="html">The key to save the object to</Abstract>
 				</Parameter>
 			</Parameters>
 			
-			<Anchor>//api/name/saveImage:withFileName:</Anchor>
+			<Anchor>//api/name/saveObject:forKey:</Anchor>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/normalize:</TokenIdentifier>
-			<Abstract type="html">Normalize UIImage for use in simulator</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/intfm/NSUserDefaults(Jukeala)/deleteObjectForKey:</TokenIdentifier>
+			<Abstract type="html">Deletes object at given key</Abstract>
+			<DeclaredIn>NSUserDefaults+Jukeala.h</DeclaredIn>			
 			
-			<Declaration>+ (UIImage *)normalize:(UIImage *)theImage</Declaration>
+			<Declaration>+ (void)deleteObjectForKey:(NSString *)key</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>theImage</Name>
-					<Abstract type="html">The &apos;UIImage&apos; to normalize</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;UIImage&apos; that has been normalized</Abstract></ReturnValue>
-			<Anchor>//api/name/normalize:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/getImageFromColor:</TokenIdentifier>
-			<Abstract type="html">Create &apos;UIImage&apos; of the specified &apos;UIColor&apos;</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>+ (UIImage *)getImageFromColor:(UIColor *)color</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>color</Name>
-					<Abstract type="html">The &apos;UIColor&apos; to create the &apos;UIImage&apos; from</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;UIImage&apos; that is the specified &apos;UIColor&apos;</Abstract></ReturnValue>
-			<Anchor>//api/name/getImageFromColor:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/hasAlpha</TokenIdentifier>
-			<Abstract type="html">Check if UIImage has an alpha channel</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (BOOL)hasAlpha</Declaration>
-			
-			<ReturnValue><Abstract type="html">&apos;BOOL&apos; type</Abstract></ReturnValue>
-			<Anchor>//api/name/hasAlpha</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/imageWithAlpha</TokenIdentifier>
-			<Abstract type="html">Returns image with alpha channel</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (UIImage *)imageWithAlpha</Declaration>
-			
-			<ReturnValue><Abstract type="html">&apos;UIImage&apos; with alpha channel</Abstract></ReturnValue>
-			<Anchor>//api/name/imageWithAlpha</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/transparentBorderImage:</TokenIdentifier>
-			<Abstract type="html">Create a transparent border on &apos;UIImage&apos;</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (UIImage *)transparentBorderImage:(NSUInteger)borderSize</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>borderSize</Name>
-					<Abstract type="html">Size of the requested border</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;UIImage&apos; with a transparent border</Abstract></ReturnValue>
-			<Anchor>//api/name/transparentBorderImage:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/newBorderMask:size:</TokenIdentifier>
-			<Abstract type="html">Creates &apos;CGImageRef&apos; with border mask</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (CGImageRef)newBorderMask:(NSUInteger)borderSize size:(CGSize)size</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>borderSize</Name>
-					<Abstract type="html">Size of the requested border</Abstract>
-				</Parameter><Parameter>
-					<Name>size</Name>
-					<Abstract type="html">&apos;CGSize&apos; of mask</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;CGImageRef&apos; with requested features</Abstract></ReturnValue>
-			<Anchor>//api/name/newBorderMask:size:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/croppedImage:</TokenIdentifier>
-			<Abstract type="html">Crop image to rect</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (UIImage *)croppedImage:(CGRect)bounds</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>bounds</Name>
-					<Abstract type="html">The bounds to crop the image to</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;UIImage&apos; cropped to requested bounds</Abstract></ReturnValue>
-			<Anchor>//api/name/croppedImage:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/thumbnailImage:transparentBorder:cornerRadius:interpolationQuality:</TokenIdentifier>
-			<Abstract type="html">Thumbnail image</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (UIImage *)thumbnailImage:(NSInteger)thumbnailSize transparentBorder:(NSUInteger)borderSize cornerRadius:(NSUInteger)cornerRadius interpolationQuality:(CGInterpolationQuality)quality</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>thumbnailSize</Name>
-					<Abstract type="html">The reqested return image size</Abstract>
-				</Parameter><Parameter>
-					<Name>borderSize</Name>
-					<Abstract type="html">The size of the border</Abstract>
-				</Parameter><Parameter>
-					<Name>cornerRadius</Name>
-					<Abstract type="html">If set, the image&apos;s corners will be rounded to the given radius</Abstract>
-				</Parameter><Parameter>
-					<Name>quality</Name>
-					<Abstract type="html">Interpolation quality</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;UIImage&apos; with requested attributes</Abstract></ReturnValue>
-			<Anchor>//api/name/thumbnailImage:transparentBorder:cornerRadius:interpolationQuality:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/resizedImage:interpolationQuality:</TokenIdentifier>
-			<Abstract type="html">Resize UIImage</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (UIImage *)resizedImage:(CGSize)newSize interpolationQuality:(CGInterpolationQuality)quality</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>newSize</Name>
-					<Abstract type="html">The requested size</Abstract>
-				</Parameter><Parameter>
-					<Name>quality</Name>
-					<Abstract type="html">Interpolation quality</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;UIImage&apos; with requested attributes.</Abstract></ReturnValue>
-			<Anchor>//api/name/resizedImage:interpolationQuality:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/resizedImageWithContentMode:bounds:interpolationQuality:</TokenIdentifier>
-			<Abstract type="html">Resized image with content mode</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (UIImage *)resizedImageWithContentMode:(UIViewContentMode)contentMode bounds:(CGSize)bounds interpolationQuality:(CGInterpolationQuality)quality</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>contentMode</Name>
-					<Abstract type="html">The &apos;UIViewContentMode&apos; of the requested returned image</Abstract>
-				</Parameter><Parameter>
-					<Name>bounds</Name>
-					<Abstract type="html">The resized bounds</Abstract>
-				</Parameter><Parameter>
-					<Name>quality</Name>
-					<Abstract type="html">Interpolation quality</Abstract>
+					<Name>key</Name>
+					<Abstract type="html">The key to delete the object from</Abstract>
 				</Parameter>
 			</Parameters>
 			
-			<Anchor>//api/name/resizedImageWithContentMode:bounds:interpolationQuality:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/scaleAndRotateImage:withMaxSize:</TokenIdentifier>
-			<Abstract type="html">Scale and rotate an image</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (UIImage *)scaleAndRotateImage:(UIImage *)image withMaxSize:(int)maxSize</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>image</Name>
-					<Abstract type="html">The image to scale and rotate</Abstract>
-				</Parameter><Parameter>
-					<Name>maxSize</Name>
-					<Abstract type="html">The max size to in pixels</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;UIImage&apos; that is scaled and rotated</Abstract></ReturnValue>
-			<Anchor>//api/name/scaleAndRotateImage:withMaxSize:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/transformForOrientation:</TokenIdentifier>
-			<Abstract type="html">The transform orientation of the image with the requested new size</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (CGAffineTransform)transformForOrientation:(CGSize)newSize</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>newSize</Name>
-					<Abstract type="html">The requested new size</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">CGAffineTransform to apply</Abstract></ReturnValue>
-			<Anchor>//api/name/transformForOrientation:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/roundedCornerImage:borderSize:</TokenIdentifier>
-			<Abstract type="html">Round the corners of the &apos;UIImage&apos; and set the border size</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (UIImage *)roundedCornerImage:(NSInteger)cornerSize borderSize:(NSInteger)borderSize</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>cornerSize</Name>
-					<Abstract type="html">The radius of the corner, in pixels</Abstract>
-				</Parameter><Parameter>
-					<Name>borderSize</Name>
-					<Abstract type="html">the requested border size</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;UIImage&apos; with the requested attributes</Abstract></ReturnValue>
-			<Anchor>//api/name/roundedCornerImage:borderSize:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/applyLightEffect</TokenIdentifier>
-			<Abstract type="html">Apply light blur effect</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (UIImage *)applyLightEffect</Declaration>
-			
-			<ReturnValue><Abstract type="html">&apos;UIImage&apos; with effect applied.</Abstract></ReturnValue>
-			<Anchor>//api/name/applyLightEffect</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/applyExtraLightEffect</TokenIdentifier>
-			<Abstract type="html">Apply extra-light blur effect</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (UIImage *)applyExtraLightEffect</Declaration>
-			
-			<ReturnValue><Abstract type="html">&apos;UIImage&apos; with effect applied.</Abstract></ReturnValue>
-			<Anchor>//api/name/applyExtraLightEffect</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/applyDarkEffect</TokenIdentifier>
-			<Abstract type="html">Apply dark blur effect</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (UIImage *)applyDarkEffect</Declaration>
-			
-			<ReturnValue><Abstract type="html">&apos;UIImage&apos; with effect applied.</Abstract></ReturnValue>
-			<Anchor>//api/name/applyDarkEffect</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/applyTintEffectWithColor:</TokenIdentifier>
-			<Abstract type="html">Apply tint effect</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (UIImage *)applyTintEffectWithColor:(UIColor *)tintColor</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>tintColor</Name>
-					<Abstract type="html">The color that you want the &apos;UIImage&apos; tinted to</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;UIImage&apos; with effect applied.</Abstract></ReturnValue>
-			<Anchor>//api/name/applyTintEffectWithColor:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(Jukaela)/applyBlurWithRadius:tintColor:saturationDeltaFactor:maskImage:</TokenIdentifier>
-			<Abstract type="html">Much finer control of tint, blur and saturation effect</Abstract>
-			<DeclaredIn>UIImage+Jukaela.h</DeclaredIn>			
-			
-			<Declaration>- (UIImage *)applyBlurWithRadius:(CGFloat)blurRadius tintColor:(UIColor *)tintColor saturationDeltaFactor:(CGFloat)saturationDeltaFactor maskImage:(UIImage *)maskImage</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>blurRadius</Name>
-					<Abstract type="html">The blur radius for the Gaussian blur</Abstract>
-				</Parameter><Parameter>
-					<Name>tintColor</Name>
-					<Abstract type="html">The color that you want the &apos;UIImage&apos; tinted to</Abstract>
-				</Parameter><Parameter>
-					<Name>saturationDeltaFactor</Name>
-					<Abstract type="html">The delta that you want the saturation of the image increased</Abstract>
-				</Parameter><Parameter>
-					<Name>maskImage</Name>
-					<Abstract type="html">&apos;UIImage&apos; to mask the returned &apos;UIImage&apos; to</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">&apos;UIImage&apos; with effect applied.</Abstract></ReturnValue>
-			<Anchor>//api/name/applyBlurWithRadius:tintColor:saturationDeltaFactor:maskImage:</Anchor>
+			<Anchor>//api/name/deleteObjectForKey:</Anchor>
 		</Token>
 		
 	</File>

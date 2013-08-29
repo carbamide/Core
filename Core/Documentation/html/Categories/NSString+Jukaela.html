@@ -46,10 +46,14 @@
 	
 	<option value="//api/name/documentsPath">&nbsp;&nbsp;&nbsp;&nbsp;+ documentsPath</option>
 	
+	<option value="//api/name/isNilOrEmpty:">&nbsp;&nbsp;&nbsp;&nbsp;+ isNilOrEmpty:</option>
+	
 	
 	
 	
 	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/contains:">&nbsp;&nbsp;&nbsp;&nbsp;- contains:</option>
 	
 	<option value="//api/name/stringWithSlashEscapes">&nbsp;&nbsp;&nbsp;&nbsp;- stringWithSlashEscapes</option>
 	
@@ -87,11 +91,15 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/documentsPath">documentsPath</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isNilOrEmpty:">isNilOrEmpty:</a></span></li>
+	
 </ul></li>
 
 
 
 <li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/contains:">contains:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stringWithSlashEscapes">stringWithSlashEscapes</a></span></li>
 	
@@ -159,6 +167,13 @@
 	</span>
 	
 	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isNilOrEmpty:">+&nbsp;isNilOrEmpty:</a></code>
+		<span class="tooltip"><p>Is the string nil or empty?</p></span>
+	</span>
+	
+	
 </li>
 						</ul>
 						
@@ -171,6 +186,13 @@
 	<span class="tooltip">
 		<code><a href="#//api/name/stringWithSlashEscapes">&ndash;&nbsp;stringWithSlashEscapes</a></code>
 		<span class="tooltip"><p>Read string and escape any characters that might throw issues</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/contains:">&ndash;&nbsp;contains:</a></code>
+		<span class="tooltip"><p>Check to see if the string contains the string that the user passed.</p></span>
 	</span>
 	
 	
@@ -281,6 +303,62 @@
 	
 </div>
 						
+						<div class="section-method">
+	<a name="//api/name/isNilOrEmpty:" title="isNilOrEmpty:"></a>
+	<h3 class="subsubtitle method-title">isNilOrEmpty:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Is the string nil or empty?</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isNilOrEmpty:(NSString *)<em>string</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>string</em></dt>
+			<dd><p>The &lsquo;NSString&rsquo; to check</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>true if the &lsquo;NSString&rsquo; is nil or empty, false if it is not.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Is the string nil or empty?</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">NSString+Jukaela.h</code><br />
+	</div>				
+	
+	
+</div>
+						
 					</div>
 					
 					
@@ -288,6 +366,62 @@
 					<div class="section section-methods">
 						<a title="Instance Methods" name="instance_methods"></a>
 						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/contains:" title="contains:"></a>
+	<h3 class="subsubtitle method-title">contains:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Check to see if the string contains the string that the user passed.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)contains:(NSString *)<em>string</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>string</em></dt>
+			<dd><p>The string to search the current string for</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>&lsquo;BOOL&rsquo; true if the string contains the substring.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Check to see if the string contains the string that the user passed.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">NSString+Jukaela.h</code><br />
+	</div>				
+	
+	
+</div>
 						
 						<div class="section-method">
 	<a name="//api/name/stringWithSlashEscapes" title="stringWithSlashEscapes"></a>
@@ -348,7 +482,7 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2013 Jukaela Enterprises. All rights reserved. (Last updated: 2013-08-24)</span><br />
+						<p><span class="copyright">&copy; 2013 Jukaela Enterprises. All rights reserved. (Last updated: 2013-08-29)</span><br />
 						
 						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
 						

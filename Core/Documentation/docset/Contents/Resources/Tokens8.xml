@@ -34,6 +34,22 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSString(Jukaela)/isNilOrEmpty:</TokenIdentifier>
+			<Abstract type="html">Is the string nil or empty?</Abstract>
+			<DeclaredIn>NSString+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isNilOrEmpty:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">The &apos;NSString&apos; to check</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">true if the &apos;NSString&apos; is nil or empty, false if it is not.</Abstract></ReturnValue>
+			<Anchor>//api/name/isNilOrEmpty:</Anchor>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/intfm/NSString(Jukaela)/stringWithSlashEscapes</TokenIdentifier>
 			<Abstract type="html">Read string and escape any characters that might throw issues</Abstract>
 			<DeclaredIn>NSString+Jukaela.h</DeclaredIn>			
@@ -42,6 +58,22 @@
 			
 			<ReturnValue><Abstract type="html">&apos;NSString&apos; that has been escaped.</Abstract></ReturnValue>
 			<Anchor>//api/name/stringWithSlashEscapes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSString(Jukaela)/contains:</TokenIdentifier>
+			<Abstract type="html">Check to see if the string contains the string that the user passed.</Abstract>
+			<DeclaredIn>NSString+Jukaela.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)contains:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">The string to search the current string for</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">&apos;BOOL&apos; true if the string contains the substring.</Abstract></ReturnValue>
+			<Anchor>//api/name/contains:</Anchor>
 		</Token>
 		
 	</File>

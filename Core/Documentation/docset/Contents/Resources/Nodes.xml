@@ -29,6 +29,9 @@
 						<NodeRef refid="7"/>
 						<NodeRef refid="8"/>
 						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
 						
 					</Subnodes>
 				</Node>
@@ -73,6 +76,18 @@
 			<Path>Categories/NSString+Jukaela.html</Path>
 		</Node>
 		<Node id="9">
+			<Name>NSUserDefaults(Jukeala)</Name>
+			<Path>Categories/NSUserDefaults+Jukeala.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>UIColor(Jukaela)</Name>
+			<Path>Categories/UIColor+Jukaela.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>UIDevice(Jukaela)</Name>
+			<Path>Categories/UIDevice+Jukaela.html</Path>
+		</Node>
+		<Node id="12">
 			<Name>UIImage(Jukaela)</Name>
 			<Path>Categories/UIImage+Jukaela.html</Path>
 		</Node>
