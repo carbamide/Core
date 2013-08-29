@@ -94,11 +94,12 @@
 -(void)setHighlighted:(BOOL)highlighted
 {
     if (highlighted != self.highlighted){
-        UIColor *darkColor = [self darkerColorForColor:_highColor];
-        UIColor *lowColor = [self darkerColorForColor:_lowColor];
-
-        [_gradientLayer setColors:@[(id)[darkColor CGColor], (id)[lowColor CGColor]]];
-        
+        if (_highColor && _lowColor) {
+            UIColor *darkColor = [self darkerColorForColor:_highColor];
+            UIColor *lowColor = [self darkerColorForColor:_lowColor];
+            
+            [_gradientLayer setColors:@[(id)[darkColor CGColor], (id)[lowColor CGColor]]];
+        }
         [[self layer] replaceSublayer:_gradientLayer with:_gradientLayer];
     }
     
@@ -115,6 +116,6 @@
         return [UIColor colorWithRed:MAX(red - 0.2, 0.0) green:MAX(green - 0.2, 0.0) blue:MAX(blue - 0.2, 0.0) alpha:alpha];
     }
     
-    return nil;
+    return [UIColor whiteColor];
 }
 @end

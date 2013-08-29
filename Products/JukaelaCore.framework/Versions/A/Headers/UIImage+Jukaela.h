@@ -24,7 +24,7 @@
 //  THE SOFTWARE.
 //
 
-@import FOundation;
+@import Foundation;
 @import UIKit;
 
 /**

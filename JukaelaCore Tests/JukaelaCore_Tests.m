@@ -76,11 +76,18 @@
     XCTAssertNotNil(testString, @"The returns NSString is nil");
 }
 
--(void)testEmptyNSStringIsNilOrEmptyIsCorrect
+-(void)testEmptyNSStringIsNilOrEmpty_Empty_IsCorrect
 {
     NSString *testString = @"";
     
-    XCTAssert([testString isNilOrEmpty], @"The NSString is nil or empty");
+    XCTAssert([NSString isNilOrEmpty:testString], @"The NSString is nil or empty");
+}
+
+-(void)testEmptyNSStringIsNilOrEmpty_Nil_IsCorrect
+{
+    NSString *testString = nil;
+    
+    XCTAssert([NSString isNilOrEmpty:testString], @"The NSString is nil or empty");
 }
 
 -(void)testNSStringContainsNotNil

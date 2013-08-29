@@ -42,6 +42,19 @@
     return documentsDirectory;
 }
 
++(BOOL)isNilOrEmpty:(NSString *)string
+{
+    if (!string) {
+        return true;
+    }
+    
+    if ([string length] == 0) {
+        return true;
+    }
+    
+    return false;
+}
+
 -(NSString *)stringWithSlashEscapes
 {
     NSString *escapedString = nil;
@@ -65,19 +78,6 @@
     escapedString = [escapedString stringByReplacingOccurrencesOfString:@"\"" withString:@"\\\""];
     
     return escapedString;
-}
-
--(BOOL)isNilOrEmpty
-{
-    if (self == nil) {
-        return true;
-    }
-    
-    if ([self length] == 0) {
-        return true;
-    }
-    
-    return false;
 }
 
 -(BOOL)contains:(NSString *)string

@@ -45,6 +45,12 @@
  */
 +(NSString *)applicationSupportPath;
 
+/** Is the string nil or empty?
+ @param The 'NSString' to check
+ @return true if the 'NSString' is nil or empty, false if it is not.
+ */
++(BOOL)isNilOrEmpty:(NSString *)string;
+
 ///---------------------------------------
 /// @name Instance Methods
 ///---------------------------------------
@@ -53,11 +59,6 @@
  @return 'NSString' that has been escaped.
  */
 -(NSString *)stringWithSlashEscapes;
-
-/** Is the string nil or empty?
- @return true if the 'NSString' is nil or empty, false if it is not.
- */
--(BOOL)isNilOrEmpty;
 
 /** Check to see if the string contains the string that the user passed.
  @param string The string to search the current string for
